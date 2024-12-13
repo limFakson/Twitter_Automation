@@ -11,7 +11,8 @@ REQUIRED_VARS = [
     "TWITTER_ACCESS_SECRET",
     "TELEGRAM_BOT_TOKEN",
     "TELEGRAM_CHAT_ID",
-    "GEMINI_API_KEY"
+    "GEMINI_API_KEY",
+    "CHECKER_BOT_TOKEN"
 ]
 
 def load_environment():

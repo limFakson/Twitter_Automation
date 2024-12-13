@@ -21,14 +21,14 @@ class GeminiService:
             
             # Process response based on content type
             if content_type == ContentType.GAME_DEV_THREAD:
-                return self._create_thread(response.text)
+                return self._create_thread(f"@Tweetauthenticitybot search: {response.text}")
             elif content_type == ContentType.GAME_DEV_POLL:
-                return self._create_poll(response.text)
+                return self._create_poll(f"@Tweetauthenticitybot search: {response.text}")
             elif content_type == ContentType.GAME_DEV_MEME:
-                return self._create_meme(response.text)
+                return self._create_meme(f"@Tweetauthenticitybot search: {response.text}")
             else:
                 return Tweet(
-                    content=self._format_tweet(response.text),
+                    content=self._format_tweet(f"@Tweetauthenticitybot search: {response.text}"),
                     tweet_type=TweetType.NORMAL
                 )
         

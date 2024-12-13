@@ -5,11 +5,9 @@ from services.telegram_service import TelegramService
 logger = logging.getLogger(__name__)
 
 def main():
-    # Setup logging
     setup_logging()
     
     try:
-        # Initialize and start telegram service
         telegram_service = TelegramService()
         telegram_service.start()
         

@@ -152,4 +152,18 @@ class TelegramService:
                     update.message.text,
                     edit_type
                 )
+                
+                # Delete previous message to avoid confusion
+                try:
+                    context.bot.delete_message(
+                        chat_id=update.effective_chat.id,
+                        message_id=message_id
+                    )
+                except Exception as e:
+                    logger.warning(f"Failed to delete previous message: {e}")
+                
+                # Send new preview
                 self.send_preview(new_tweet)
+                
+                # Clear edit mode
+                context.user_data.clear()

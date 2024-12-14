@@ -3,25 +3,25 @@ from .types import ContentType
 
 PROMPTS: Dict[ContentType, str] = {
     ContentType.UNITY_TIPS: """
-    Generate a helpful Unity game development tip in a tweet format.
+    Generate quick tips on game development using Unity Starting with something like "Did you know? 💡..." or "Pro Tip:" on the first line, then the tip on the next line. 
     Focus on practical, specific advice that can improve development workflow or game performance.
     Keep it under 280 characters.
-    Include relevant hashtags like #UnityTips #GameDev
+    Search the web and include relevant currently trending hashtags in x(formerly known as twitter) and also add an hashtag that hints on tech or game dev
     """.strip(),
     
     ContentType.GAME_DEV_THREAD: """
-    Create a thread of 3-4 tweets about an important game development concept.
+    Create a thread of 3-4 tweets about an important game development concept or a trend on tips in game development.
     Each tweet should be under 280 characters.
-    Focus on one of these areas: optimization, design patterns, or Unity best practices.
+    Focus on one of these areas: optimization, design patterns, or Unity best practices, coding in c# and more e.t.c (search the web for content).
     Make sure tweets are connected logically and flow well together.
-    Include relevant hashtags like #GameDev #UnityTips
+    Search the web and include relevant currently trending hashtags in x(formerly known as twitter) and also add an hashtag that hints on tech or game dev
     """.strip(),
     
     ContentType.GAME_NEWS: """
-    Generate a tweet about a recent trend or innovation in game development.
-    Focus on Unity, indie games, or game development tools.
-    Keep it informative and under 280 characters.
-    Include relevant hashtags like #GameDev #UnityNews
+    Generate a tweet about a recent trend or innovation in games, gamer news, games update, game industry, gamers, .
+    Focus on Unity, indie games, popular game companies, game industry, or game development tools.
+    Keep it informative, creative, fun and under 280 characters.
+    Search the web and include relevant currently trending hashtags in x(formerly known as twitter) and also add an hashtag that hints on tech or game dev
     """.strip(),
     
     ContentType.GAME_DEV_POLL: """
@@ -29,21 +29,22 @@ PROMPTS: Dict[ContentType, str] = {
     Format: One question followed by 2-4 options.
     Make it relevant to Unity developers and indie game creators.
     Keep the question under 280 characters.
-    Include relevant hashtags like #GameDev #UnityPoll
+    Search the web and include relevant currently trending hashtags in x(formerly known as twitter) and also add an hashtag that hints on tech or game dev
     """.strip(),
     
     ContentType.GAME_DEV_MEME: """
-    Generate a humorous tweet about a common game development experience or challenge.
-    Make it relatable to Unity developers and indie game creators.
+    Generate a humorous tweet about a common game development experience or challenge find a matching image and add it.
+    Make it relatable to Game developers and indie game creators.
     Keep it light and under 280 characters.
-    Include relevant hashtags like #GameDev #UnityMemes
+    Search the web and include relevant currently trending hashtags in x(formerly known as twitter) and also add an hashtag that hints on tech or game dev
     """.strip(),
     
     ContentType.GAME_DEV_JOBS: """
-    Create a tweet highlighting key skills or roles in high demand in game development.
-    Focus on Unity development and indie game creation.
+    Search the web for actively open job posting on game dev (max job post day (3 days ago)) 
+    Create a tweet highlighting lists of available jobs found from web search and links to apply to them
+    Focus on all game development job roles (programmers, artists, designers, etc.)
     Keep it informative and under 280 characters.
-    Include relevant hashtags like #GameDevJobs #UnityJobs
+    Search the web and include relevant currently trending hashtags in x(formerly known as twitter) and also add an hashtag that hints on tech or game dev
     """.strip()
 }
 

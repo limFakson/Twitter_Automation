@@ -1,8 +1,9 @@
 import logging
+import random
 import google.generativeai as genai
 from typing import Optional, List
 from config.environment import load_environment
-from content.types import Tweet, TweetType, ContentType, PollOption
+from content.types import MemeTemplate, Tweet, TweetType, ContentType, PollOption
 from content.prompts import get_prompt
 
 logger = logging.getLogger(__name__)
@@ -11,7 +12,7 @@ class GeminiService:
     def __init__(self):
         config = load_environment()
         genai.configure(api_key=config["GEMINI_API_KEY"])
-        self.model = genai.GenerativeModel('gemini-pro')
+        self.model = genai.GenerativeModel('gemini-1.5-pro')
     
     def generate_tweet(self, content_type: ContentType) -> Tweet:
         """Generate tweet content using Gemini AI"""
@@ -21,14 +22,14 @@ class GeminiService:
             
             # Process response based on content type
             if content_type == ContentType.GAME_DEV_THREAD:
-                return self._create_thread(f"@Tweetauthenticitybot search: {response.text}")
+                return self._create_thread(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_POLL:
-                return self._create_poll(f"@Tweetauthenticitybot search: {response.text}")
+                return self._create_poll(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_MEME:
-                return self._create_meme(f"@Tweetauthenticitybot search: {response.text}")
+                return self._create_meme(f"{response.text}")
             else:
                 return Tweet(
-                    content=self._format_tweet(f"@Tweetauthenticitybot search: {response.text}"),
+                    content=self._format_tweet(f"{response.text}"),
                     tweet_type=TweetType.NORMAL
                 )
         
@@ -69,10 +70,23 @@ class GeminiService:
         )
     
     def _create_meme(self, text: str) -> Tweet:
-        """Create a meme tweet"""
-        # For now, just create a normal tweet without image
-        # TODO: Implement meme image generation/fetching
-        return Tweet(
-            content=self._format_tweet(text),
-            tweet_type=TweetType.MEME
-        )
+        """Create a meme tweet with generated image"""
+        try:
+            # Select random template
+            template = random.choice(MemeTemplate.get_templates())
+            
+            # Generate meme image
+            image_path = self.meme_service.generate_meme(template, text)
+            
+            return Tweet(
+                content=self._format_tweet(text),
+                tweet_type=TweetType.MEME,
+                image_path=image_path
+            )
+        except Exception as e:
+            logger.error(f"Failed to create meme: {e}")
+            # Fallback to text-only tweet if meme generation fails
+            return Tweet(
+                content=self._format_tweet(text),
+                tweet_type=TweetType.MEME
+            )

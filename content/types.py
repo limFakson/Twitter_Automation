@@ -1,6 +1,6 @@
 from enum import Enum
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import List, Optional, Tuple
 
 class ContentType(Enum):
     UNITY_TIPS = "unity_tips"
@@ -53,3 +53,26 @@ class Tweet:
         options = "\n".join(f"{i}. {opt.text}"
                           for i, opt in enumerate(self.poll_options, 1))
         return f"{self.content}\n\nPoll Options:\n{options}"
+    
+@dataclass
+class MemeTemplate:
+    name: str
+    filename: str
+    text_positions: List[Tuple[int, int]]
+    max_text_length: int = 100
+    
+    @classmethod
+    def get_templates(cls) -> List['MemeTemplate']:
+        """Return list of available meme templates"""
+        return [
+            cls(
+                name="drake",
+                filename="drake.png",
+                text_positions=[(350, 100), (350, 300)]
+            ),
+            cls(
+                name="distracted_boyfriend",
+                filename="distracted_boyfriend.png",
+                text_positions=[(150, 100), (400, 100), (650, 100)]
+            ),   # Add more templates as needed
+        ]

@@ -79,6 +79,6 @@ class TwitterService:
     
     def _post_poll(self, tweet: Tweet) -> bool:
         """Post a poll tweet"""
-        # Implementation for poll posting when API supports it
+        # Implementation for poll posting until when API supports it
         logger.warning("Poll posting not yet implemented")
         return self._post_single(tweet)

@@ -14,7 +14,6 @@ class ContentService:
     def generate_tweet(self) -> Tweet:
         """Generate a new tweet using Gemini AI"""
         try:
-            # Randomly select content type
             content_type = random.choice(list(ContentType))
             return self.gemini.generate_tweet(content_type)
         except Exception as e:

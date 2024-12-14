@@ -28,11 +28,9 @@ class TelegramService:
         """Start the telegram bot service"""
         try:
             logger.info("Starting Telegram bot service...")
-            # Generate initial tweet
             tweet = self.content_service.generate_tweet()
             self.send_preview(tweet)
             
-            # Start polling for updates
             self.updater.start_polling()
             self.updater.idle()
             
@@ -153,7 +151,6 @@ class TelegramService:
                     edit_type
                 )
                 
-                # Delete previous message to avoid confusion
                 try:
                     context.bot.delete_message(
                         chat_id=update.effective_chat.id,

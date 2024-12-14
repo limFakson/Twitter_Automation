@@ -25,19 +25,15 @@ class MemeService:
                 logger.error(f"Template not found: {template_path}")
                 return None
 
-            # Generate unique filename for output
             output_filename = f"meme_{hash(text)}_{template.name}.png"
             output_path = os.path.join(self.output_dir, output_filename)
 
-            # Create meme image
             with Image.open(template_path) as img:
                 draw = ImageDraw.Draw(img)
                 font = ImageFont.truetype("assets/fonts/Impact.ttf", size=40)
                 
-                # Add text to image based on template configuration
                 self._add_text_to_image(draw, text, template.text_positions, font)
                 
-                # Save the generated meme
                 img.save(output_path, "PNG")
                 logger.info(f"Generated meme saved to: {output_path}")
                 return output_path
@@ -49,7 +45,6 @@ class MemeService:
     def _add_text_to_image(self, draw, text: str, positions: list, font):
         """Add text to the image at specified positions"""
         for position in positions:
-            # Add text outline for better visibility
             x, y = position
             outline_color = "black"
             text_color = "white"

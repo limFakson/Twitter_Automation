@@ -20,7 +20,6 @@ class GeminiService:
             prompt = get_prompt(content_type)
             response = self.model.generate_content(prompt)
             
-            # Process response based on content type
             if content_type == ContentType.GAME_DEV_THREAD:
                 return self._create_thread(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_POLL:
@@ -50,6 +49,7 @@ class GeminiService:
             thread_tweets=tweets
         )
     
+    # Poll option is not working yet, twitter's api doesn't support polls yet
     def _create_poll(self, text: str) -> Tweet:
         """Create a poll from generated content"""
         lines = [line.strip() for line in text.split('\n') if line.strip()]
@@ -61,7 +61,7 @@ class GeminiService:
             PollOption(text=option)
             for option in lines[1:]
             if not option.startswith(('#', '?'))
-        ][:4]  # Twitter allows max 4 options
+        ][:4]  
         
         return Tweet(
             content=question,
@@ -72,10 +72,8 @@ class GeminiService:
     def _create_meme(self, text: str) -> Tweet:
         """Create a meme tweet with generated image"""
         try:
-            # Select random template
             template = random.choice(MemeTemplate.get_templates())
             
-            # Generate meme image
             image_path = self.meme_service.generate_meme(template, text)
             
             return Tweet(
@@ -85,7 +83,6 @@ class GeminiService:
             )
         except Exception as e:
             logger.error(f"Failed to create meme: {e}")
-            # Fallback to text-only tweet if meme generation fails
             return Tweet(
                 content=self._format_tweet(text),
                 tweet_type=TweetType.MEME

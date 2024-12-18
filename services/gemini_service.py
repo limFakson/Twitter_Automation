@@ -12,7 +12,7 @@ class GeminiService:
     def __init__(self):
         config = load_environment()
         genai.configure(api_key=config["GEMINI_API_KEY"])
-        self.model = genai.GenerativeModel('gemini-1.5-pro')
+        self.model = genai.GenerativeModel('gemini-exp-1206')
     
     def generate_tweet(self, content_type: ContentType) -> Tweet:
         """Generate tweet content using Gemini AI"""

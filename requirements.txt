@@ -1,7 +1,7 @@
 python-telegram-bot==13.7
 tweepy==4.14.0
 python-dotenv==1.0.0
-google-generative-ai==0.3.1
+google-generativeai
 Pillow==10.1.0
 requests==2.31.0
 pytest==7.4.3

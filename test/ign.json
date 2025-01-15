@@ -1,0 +1,391 @@
+{
+    "data": {
+        "homepage": {
+            "contentFeed": {
+                "pagination": {
+                    "total": 501,
+                    "isMore": "True",
+                    "endIndex": 5,
+                    "__typename": "Pagination"
+                },
+                "feedItems": [
+                    {
+                        "content": {
+                            "id": "eff85810-c968-4a31-b9ae-fb62a27d3428",
+                            "type": "Promotion",
+                            "title": "All Active Anime Reborn Codes",
+                            "subtitle": "Get New Year Coins, Trait Crystals, Rerolls, and more with these new codes.",
+                            "promoteAt": "2025-01-12T07: 30: 00.000Z",
+                            "publishDate": "2025-01-12T07: 30: 00.000Z",
+                            "slug": "all-active-anime-reborn-codes",
+                            "feedTitle": "All Active Anime Reborn Codes",
+                            "feedImage": {
+                                "url": "https: //assets-prd.ignimgs.com/2025/01/11/anime-reborn-codes-promo-1-1736619044654.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "https://www.ign.com/articles/anime-reborn-codes",
+                            "__typename": "ModernContent",
+                            "contributors": [],
+                            "primaryObject": null,
+                            "abTests": [
+                                {
+                                    "id": 53673,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "All Active Anime Reborn Codes",
+                                        "Anime Reborn Codes (January 2025)"
+                                    ],
+                                    "winnerIndex": null,
+                                    "__typename": "ABTest"
+                                }
+                            ]
+                        },
+                        "__typename": "Promotion"
+                    },
+                    {
+                        "content": {
+                            "id": "d0a0c764-5be1-4c43-90c7-6458b6d90572",
+                            "type": "Promotion",
+                            "title": "Infinity Nikki: Friendship is Bubbling Quest",
+                            "subtitle": "The Fish Knight saves the day again!",
+                            "promoteAt": "2025-01-12T04:00:00.000Z",
+                            "publishDate": "2025-01-07T06:00:00.000Z",
+                            "slug": "infinity-nikki-friendship-is-bubbling-quest",
+                            "feedTitle": "Infinity Nikki: Friendship is Bubbling Quest",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2025/01/06/friendship-is-bubbling-promo-1736202573291.png",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "https://www.ign.com/wikis/infinity-nikki/Friendship_is_Bubbling!_Quest_Walkthrough",
+                            "__typename": "ModernContent",
+                            "contributors": [],
+                            "primaryObject": null,
+                            "abTests": [
+                                {
+                                    "id": 53560,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "Infinity Nikki: Friendship is Bubbling Quest",
+                                        "How to Unlock the Friendship is Bubbling Quest in Infinity Nikki"
+                                    ],
+                                    "winnerIndex": null,
+                                    "__typename": "ABTest"
+                                }
+                            ]
+                        },
+                        "__typename": "Promotion"
+                    },
+                    {
+                        "content": {
+                            "id": "c6812159-58fe-408e-ae29-0d761557c6fa",
+                            "type": "Promotion",
+                            "title": "FF7 Rebirth: Chapter 13 - Where Angels Fear to Tread Guide",
+                            "subtitle": "Learn how to complete the Temple of the Ancients in our FF7 Rebirth walkthrough.",
+                            "promoteAt": "2025-01-12T03:00:00.000Z",
+                            "publishDate": "2025-01-12T03:00:00.000Z",
+                            "slug": "ff7-rebirth-chapter-13-where-angels-fear-to-tread-guide",
+                            "feedTitle": "FF7 Rebirth: Chapter 13 - Where Angels Fear to Tread Guide",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2025/01/11/ff7-rebirth-chapter-13-promo-1736619586942.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "https://www.ign.com/wikis/final-fantasy-7-rebirth/Chapter_13_-_Where_Angels_Fear_to_Tread",
+                            "__typename": "ModernContent",
+                            "contributors": [],
+                            "primaryObject": null,
+                            "abTests": []
+                        },
+                        "__typename": "Promotion"
+                    },
+                    {
+                        "content": {
+                            "id": "c96d13ab-d2a0-4f54-a1c6-a7d48aeb2ed3",
+                            "type": "Article",
+                            "title": "Star Wars Outlaws, Prince of Persia: The Lost Crown, and More Games on Sale at Best Buy",
+                            "subtitle": "Kickstart the new year with some new games.",
+                            "promoteAt": "2025-01-12T01:30:00.000Z",
+                            "publishDate": "2025-01-06T15:29:56.621Z",
+                            "slug": "best-buy-ubisoft-game-sale-january-2024",
+                            "feedTitle": "Star Wars Outlaws, Prince of Persia: The Lost Crown, and More Ubisoft Games on Sale at Best Buy",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2025/01/06/best-buy-ubisoft-game-sale-1736173612683.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/best-buy-ubisoft-game-sale-january-2024",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "9f307b26-b4b1-11ea-b2e3-0e7c1d759882",
+                                    "name": "Hannah Hoolihan",
+                                    "nickname": "hannah_hoolihan",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": null,
+                            "abTests": [
+                                {
+                                    "id": 53542,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "Star Wars Outlaws, Prince of Persia: The Lost Crown, and More Ubisoft Games on Sale at Best Buy",
+                                        "Best Buy Slashes the Price of Select Games After the Holidays"
+                                    ],
+                                    "winnerIndex": 1,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 16,
+                                "name": "Shopping",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": {
+                                "id": 324,
+                                "slug": "us-commerce",
+                                "name": "US Commerce",
+                                "logoLight": null,
+                                "logoDark": null,
+                                "__typename": "Brand"
+                            },
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "096292bb-c47a-46ca-8c21-51b26db73a2a",
+                            "type": "Article",
+                            "title": "What to Expect From DC in 2025",
+                            "subtitle": "James Gunn's Superman ushers in a new era for DC in 2025.",
+                            "promoteAt": "2025-01-11T23: 17: 00.000Z",
+                            "publishDate": "2025-01-03T15: 00: 00.000Z",
+                            "slug": "what-to-expect-from-dc-in-2025",
+                            "feedTitle": "What to Expect From DC in 2025",
+                            "feedImage": {
+                                "url": "https: //assets-prd.ignimgs.com/2024/12/20/dc-in-2025-blogroll-1734724755868.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/what-to-expect-from-dc-in-2025",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "01fe4104-b4b0-11ea-b2e3-0e7c1d759882",
+                                    "name": "Jesse Schedeen",
+                                    "nickname": "Kicksplode",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "1463a803-113b-413b-98d2-aa8634549320",
+                                "url": "/comics/absolute-batman",
+                                "slug": "absolute-batman",
+                                "type": "Comic",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Absolute Batman",
+                                        "alt": [],
+                                        "short": null,
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2251526,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "8bb01ec3-dcb7-4ea1-bcf9-2b2b01dd0cba",
+                                                "date": "2024-10-09",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4097175,
+                                                        "name": "Print",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Batman",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53445,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "What to Expect From DC in 2025",
+                                        "James Gunn's Superman, Peacemaker, The Sandman and More Big DC Projects in 2025"
+                                    ],
+                                    "winnerIndex": 1,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 6,
+                                "name": "Feature",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": null,
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "b7216ef9-5b64-44e8-9854-5d62dae6d54d",
+                            "type": "Article",
+                            "title": "What to Expect From Star Wars in 2025",
+                            "subtitle": "Andor finally returns alongside Star Wars: Visions, and the High Republic reaches its end.",
+                            "promoteAt": "2025-01-11T21: 17: 00.000Z",
+                            "publishDate": "2025-01-04T15: 00: 00.000Z",
+                            "slug": "what-to-expect-from-star-wars-in-2025",
+                            "feedTitle": "What to Expect From Star Wars in 2025",
+                            "feedImage": {
+                                "url": "https: //assets-prd.ignimgs.com/2024/12/20/starwars-in-2025-blogroll-1734722520037.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/what-to-expect-from-star-wars-in-2025",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "01fe4104-b4b0-11ea-b2e3-0e7c1d759882",
+                                    "name": "Jesse Schedeen",
+                                    "nickname": "Kicksplode",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "d4efe71e-8eee-4019-ab55-cb495c48781b",
+                                "url": "/tv/star-wars-ahsoka",
+                                "slug": "star-wars-ahsoka",
+                                "type": "Show",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Star Wars: Ahsoka",
+                                        "alt": [
+                                            "Ahsoka Tano: A Star Wars Story"
+                                        ],
+                                        "short": "Ahsoka",
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2149578,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "3bef070f-a5d0-48d9-9e3c-a0fb3f7fc1a2",
+                                                "date": "2023-08-22",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4236779,
+                                                        "name": "TV",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2149579,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "aaba870e-957f-46fa-9597-575ab90f25c5",
+                                                "date": "2023-08-22",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4236779,
+                                                        "name": "TV",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2149580,
+                                        "name": null,
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "7ab560a1-4841-46ba-b7ba-d59c0b6bfb5a",
+                                                "date": "2023-08-22",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4236779,
+                                                        "name": "TV",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Star Wars",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53443,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "What to Expect From Star Wars in 2025",
+                                        "Andor, The High Republic Finale, and More Big Star Wars Projects Coming in 2025"
+                                    ],
+                                    "winnerIndex": 1,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 6,
+                                "name": "Feature",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": null,
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    }
+                ],
+                "__typename": "Feed"
+            },
+            "__typename": "Homepage"
+        }
+    }
+}

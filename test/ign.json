@@ -3,7 +3,7 @@
         "homepage": {
             "contentFeed": {
                 "pagination": {
-                    "total": 501,
+                    "total": 208,
                     "isMore": "True",
                     "endIndex": 5,
                     "__typename": "Pagination"
@@ -11,137 +11,135 @@
                 "feedItems": [
                     {
                         "content": {
-                            "id": "eff85810-c968-4a31-b9ae-fb62a27d3428",
-                            "type": "Promotion",
-                            "title": "All Active Anime Reborn Codes",
-                            "subtitle": "Get New Year Coins, Trait Crystals, Rerolls, and more with these new codes.",
-                            "promoteAt": "2025-01-12T07: 30: 00.000Z",
-                            "publishDate": "2025-01-12T07: 30: 00.000Z",
-                            "slug": "all-active-anime-reborn-codes",
-                            "feedTitle": "All Active Anime Reborn Codes",
-                            "feedImage": {
-                                "url": "https: //assets-prd.ignimgs.com/2025/01/11/anime-reborn-codes-promo-1-1736619044654.jpg",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "https://www.ign.com/articles/anime-reborn-codes",
-                            "__typename": "ModernContent",
-                            "contributors": [],
-                            "primaryObject": null,
-                            "abTests": [
-                                {
-                                    "id": 53673,
-                                    "represents": "promoTitle",
-                                    "values": [
-                                        "All Active Anime Reborn Codes",
-                                        "Anime Reborn Codes (January 2025)"
-                                    ],
-                                    "winnerIndex": null,
-                                    "__typename": "ABTest"
-                                }
-                            ]
-                        },
-                        "__typename": "Promotion"
-                    },
-                    {
-                        "content": {
-                            "id": "d0a0c764-5be1-4c43-90c7-6458b6d90572",
-                            "type": "Promotion",
-                            "title": "Infinity Nikki: Friendship is Bubbling Quest",
-                            "subtitle": "The Fish Knight saves the day again!",
-                            "promoteAt": "2025-01-12T04:00:00.000Z",
-                            "publishDate": "2025-01-07T06:00:00.000Z",
-                            "slug": "infinity-nikki-friendship-is-bubbling-quest",
-                            "feedTitle": "Infinity Nikki: Friendship is Bubbling Quest",
-                            "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/06/friendship-is-bubbling-promo-1736202573291.png",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "https://www.ign.com/wikis/infinity-nikki/Friendship_is_Bubbling!_Quest_Walkthrough",
-                            "__typename": "ModernContent",
-                            "contributors": [],
-                            "primaryObject": null,
-                            "abTests": [
-                                {
-                                    "id": 53560,
-                                    "represents": "promoTitle",
-                                    "values": [
-                                        "Infinity Nikki: Friendship is Bubbling Quest",
-                                        "How to Unlock the Friendship is Bubbling Quest in Infinity Nikki"
-                                    ],
-                                    "winnerIndex": null,
-                                    "__typename": "ABTest"
-                                }
-                            ]
-                        },
-                        "__typename": "Promotion"
-                    },
-                    {
-                        "content": {
-                            "id": "c6812159-58fe-408e-ae29-0d761557c6fa",
-                            "type": "Promotion",
-                            "title": "FF7 Rebirth: Chapter 13 - Where Angels Fear to Tread Guide",
-                            "subtitle": "Learn how to complete the Temple of the Ancients in our FF7 Rebirth walkthrough.",
-                            "promoteAt": "2025-01-12T03:00:00.000Z",
-                            "publishDate": "2025-01-12T03:00:00.000Z",
-                            "slug": "ff7-rebirth-chapter-13-where-angels-fear-to-tread-guide",
-                            "feedTitle": "FF7 Rebirth: Chapter 13 - Where Angels Fear to Tread Guide",
-                            "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/11/ff7-rebirth-chapter-13-promo-1736619586942.jpg",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "https://www.ign.com/wikis/final-fantasy-7-rebirth/Chapter_13_-_Where_Angels_Fear_to_Tread",
-                            "__typename": "ModernContent",
-                            "contributors": [],
-                            "primaryObject": null,
-                            "abTests": []
-                        },
-                        "__typename": "Promotion"
-                    },
-                    {
-                        "content": {
-                            "id": "c96d13ab-d2a0-4f54-a1c6-a7d48aeb2ed3",
+                            "id": "7619f427-7ed9-49fd-88d4-61fbe53cfb64",
                             "type": "Article",
-                            "title": "Star Wars Outlaws, Prince of Persia: The Lost Crown, and More Games on Sale at Best Buy",
-                            "subtitle": "Kickstart the new year with some new games.",
-                            "promoteAt": "2025-01-12T01:30:00.000Z",
-                            "publishDate": "2025-01-06T15:29:56.621Z",
-                            "slug": "best-buy-ubisoft-game-sale-january-2024",
-                            "feedTitle": "Star Wars Outlaws, Prince of Persia: The Lost Crown, and More Ubisoft Games on Sale at Best Buy",
+                            "title": "Save 40% Off Arzopa USB Portable Monitors (Nintendo Switch and Steam Deck Compatible)",
+                            "subtitle": "A great USB Type-C portable display for your laptop, tablet, or gaming handheld.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-24T23:55:00.000Z",
+                            "slug": "best-usb-portable-monitor-deals-2025-arzopa",
+                            "feedTitle": "Save 40% Off Arzopa USB Portable Monitors (Switch Compatible)",
                             "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/06/best-buy-ubisoft-game-sale-1736173612683.jpg",
+                                "url": "https://assets-prd.ignimgs.com/2024/08/05/arzopas1-1722886902764.jpg",
                                 "__typename": "Image"
                             },
                             "v3Id": null,
-                            "url": "/articles/best-buy-ubisoft-game-sale-january-2024",
+                            "url": "/articles/best-usb-portable-monitor-deals-2025-arzopa",
                             "__typename": "ModernContent",
                             "contributors": [
                                 {
-                                    "id": "9f307b26-b4b1-11ea-b2e3-0e7c1d759882",
-                                    "name": "Hannah Hoolihan",
-                                    "nickname": "hannah_hoolihan",
+                                    "id": "8a77c78f-b4b1-11ea-b2e3-0e7c1d759882",
+                                    "name": "Eric Song",
+                                    "nickname": "eksong82",
                                     "__typename": "Contributor"
                                 }
                             ],
-                            "primaryObject": null,
-                            "abTests": [
-                                {
-                                    "id": 53542,
-                                    "represents": "promoTitle",
-                                    "values": [
-                                        "Star Wars Outlaws, Prince of Persia: The Lost Crown, and More Ubisoft Games on Sale at Best Buy",
-                                        "Best Buy Slashes the Price of Select Games After the Holidays"
-                                    ],
-                                    "winnerIndex": 1,
-                                    "__typename": "ABTest"
-                                }
-                            ],
+                            "primaryObject": {
+                                "id": "d1e57708-b5aa-4094-9050-be793aefe3e9",
+                                "url": "/games/nintendo-switch",
+                                "slug": "nintendo-switch",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Nintendo Switch",
+                                        "alt": [
+                                            "Nintendo NX [working title]"
+                                        ],
+                                        "short": "Nintendo Switch",
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 1933295,
+                                        "name": "Nintendo Switch",
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "f20685b7-559f-49ae-9991-c464f0e31161",
+                                                "date": "2017-03-03",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 1933296,
+                                        "name": "Nintendo Switch",
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "c92077c0-b151-4e2e-8310-ffa666301c15",
+                                                "date": "2017-03-03",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 1933297,
+                                        "name": "Nintendo Switch",
+                                        "region": "JP",
+                                        "releases": [
+                                            {
+                                                "id": "20540a08-1769-48f4-adb7-f5d2f5430b4d",
+                                                "date": "2017-03-03",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 1933298,
+                                        "name": "Nintendo Switch",
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "bb05d6ac-b1fe-4d36-a0dc-23ab69ed6343",
+                                                "date": "2017-03-03",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [],
+                                "__typename": "Object"
+                            },
+                            "abTests": [],
                             "sponsorships": null,
                             "contentCategory": {
-                                "id": 16,
-                                "name": "Shopping",
+                                "id": 15,
+                                "name": "Daily Deals",
                                 "__typename": "ContentCategory"
                             },
                             "brand": {
@@ -158,56 +156,96 @@
                     },
                     {
                         "content": {
-                            "id": "096292bb-c47a-46ca-8c21-51b26db73a2a",
+                            "id": "528c4f17-df64-4866-94c1-a60e81a57df8",
                             "type": "Article",
-                            "title": "What to Expect From DC in 2025",
-                            "subtitle": "James Gunn's Superman ushers in a new era for DC in 2025.",
-                            "promoteAt": "2025-01-11T23: 17: 00.000Z",
-                            "publishDate": "2025-01-03T15: 00: 00.000Z",
-                            "slug": "what-to-expect-from-dc-in-2025",
-                            "feedTitle": "What to Expect From DC in 2025",
+                            "title": "Attack on Titan Revolution Update 3 Takes Aim at Bug and Balance Fixes",
+                            "subtitle": "Tatakae.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-24T22:00:00.000Z",
+                            "slug": "attack-on-titan-revolution-update-3-takes-aim-at-bug-and-balance-fixes",
+                            "feedTitle": "Attack on Titan Revolution Update 3 Takes Aim at Bug and Balance Fixes",
                             "feedImage": {
-                                "url": "https: //assets-prd.ignimgs.com/2024/12/20/dc-in-2025-blogroll-1734724755868.jpg",
+                                "url": "https://assets-prd.ignimgs.com/2025/01/23/attack-on-titan-revolution-update-3-1737654275040.png",
                                 "__typename": "Image"
                             },
                             "v3Id": null,
-                            "url": "/articles/what-to-expect-from-dc-in-2025",
+                            "url": "/articles/attack-on-titan-revolution-update-3-takes-aim-at-bug-and-balance-fixes",
                             "__typename": "ModernContent",
                             "contributors": [
                                 {
-                                    "id": "01fe4104-b4b0-11ea-b2e3-0e7c1d759882",
-                                    "name": "Jesse Schedeen",
-                                    "nickname": "Kicksplode",
+                                    "id": "e989121d-b4b0-11ea-b2e3-0e7c1d759882",
+                                    "name": "Michael Cripe",
+                                    "nickname": "MikeCripe",
                                     "__typename": "Contributor"
                                 }
                             ],
                             "primaryObject": {
-                                "id": "1463a803-113b-413b-98d2-aa8634549320",
-                                "url": "/comics/absolute-batman",
-                                "slug": "absolute-batman",
-                                "type": "Comic",
+                                "id": "dcbdbb04-5e1f-4b09-8e0f-c6b501e76a41",
+                                "url": "/games/attack-on-titan-revolution-roblox",
+                                "slug": "attack-on-titan-revolution-roblox",
+                                "type": "Game",
                                 "metadata": {
                                     "names": {
-                                        "name": "Absolute Batman",
+                                        "name": "Attack on Titan Revolution [Roblox]",
                                         "alt": [],
-                                        "short": null,
+                                        "short": "Attack on Titan Revolution",
                                         "__typename": "Names"
                                     },
                                     "__typename": "Metadata"
                                 },
                                 "objectRegions": [
                                     {
-                                        "id": 2251526,
+                                        "id": 2273167,
                                         "name": null,
                                         "region": "US",
                                         "releases": [
                                             {
-                                                "id": "8bb01ec3-dcb7-4ea1-bcf9-2b2b01dd0cba",
-                                                "date": "2024-10-09",
+                                                "id": "70eb79b4-7f45-464d-b1fb-f5e0b908af95",
+                                                "date": "2023-05-07",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 4097175,
-                                                        "name": "Print",
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2273168,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "0371d85f-6e3a-461d-9168-1d8326e3114e",
+                                                "date": "2023-05-07",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2273169,
+                                        "name": null,
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "b03322b2-9fc5-4fde-b43b-d8fb269e4d50",
+                                                "date": "2023-05-07",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -219,7 +257,7 @@
                                 ],
                                 "franchises": [
                                     {
-                                        "name": "Batman",
+                                        "name": "Roblox",
                                         "__typename": "Attribute"
                                     }
                                 ],
@@ -227,20 +265,199 @@
                             },
                             "abTests": [
                                 {
-                                    "id": 53445,
+                                    "id": 53925,
                                     "represents": "promoTitle",
                                     "values": [
-                                        "What to Expect From DC in 2025",
-                                        "James Gunn's Superman, Peacemaker, The Sandman and More Big DC Projects in 2025"
+                                        "Attack on Titan Revolution Update 3 Takes Aim at Bug and Balance Fixes",
+                                        "Attack on Titan Revolution Gives Roblox Players Sweeping Quality-of-Life Fixes With Update 3"
                                     ],
-                                    "winnerIndex": 1,
+                                    "winnerIndex": null,
                                     "__typename": "ABTest"
                                 }
                             ],
                             "sponsorships": null,
                             "contentCategory": {
-                                "id": 6,
-                                "name": "Feature",
+                                "id": 1,
+                                "name": "News",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": {
+                                "id": 402,
+                                "slug": "codes24",
+                                "name": "Codes24",
+                                "logoLight": null,
+                                "logoDark": null,
+                                "__typename": "Brand"
+                            },
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "83f20e19-500f-4f8c-b3c9-fbc790b9a21f",
+                            "type": "Article",
+                            "title": "GTA 6 at $100 Would Be 'A Bridge Too Far' � Even for Grand Theft Auto",
+                            "subtitle": "Analysts say there�s no need for a price hike, and it may hurt more than help.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-24T19:17:07.137Z",
+                            "slug": "gta-6-at-100-would-be-a-bridge-too-far-even-for-grand-theft-auto",
+                            "feedTitle": "GTA 6 at $100 Would Be 'A Bridge Too Far' � Even for Grand Theft Auto",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2025/01/24/gta-6-grand-theft-auto-vi-official-trailer-1-1737746126590.jpeg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/gta-6-at-100-would-be-a-bridge-too-far-even-for-grand-theft-auto",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "38948b2b-e40c-401e-aedd-75d228c4c00b",
+                                    "name": "Rebekah Valentine",
+                                    "nickname": "duckvalentine",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "508c68d5-8685-460c-9578-f4356e9bac59",
+                                "url": "/games/grand-theft-auto-vi",
+                                "slug": "grand-theft-auto-vi",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Grand Theft Auto VI",
+                                        "alt": [
+                                            "GTA 6",
+                                            "\nGTA VI",
+                                            "Grand Theft Auto 6"
+                                        ],
+                                        "short": "GTA 6",
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2229134,
+                                        "name": "",
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "847a5f70-df3e-4fed-a1c9-8778eac42f61",
+                                                "date": "2025-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e3f58faf-31c5-4d14-b287-66d9febe0c38",
+                                                "date": "2025-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2229135,
+                                        "name": "",
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "70b3243e-0339-4bc0-a779-5da149254ae6",
+                                                "date": "2025-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "9aed4888-5d87-49b7-9c9b-dd41422b2492",
+                                                "date": "2025-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2229136,
+                                        "name": "",
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "33f65716-4704-49f6-8491-b6fc8652a93a",
+                                                "date": "2025-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b8809cbb-a981-4525-8f61-a4b2dac9e802",
+                                                "date": "2025-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "GTA - Grand Theft Auto",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53955,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "GTA 6 at $100 Would Be 'A Bridge Too Far' � Even for Grand Theft Auto",
+                                        "Don't Worry, Rockstar Probably Won't Sell GTA 6 for $100, Analysts Say"
+                                    ],
+                                    "winnerIndex": 0,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 1,
+                                "name": "News",
                                 "__typename": "ContentCategory"
                             },
                             "brand": null,
@@ -250,58 +467,56 @@
                     },
                     {
                         "content": {
-                            "id": "b7216ef9-5b64-44e8-9854-5d62dae6d54d",
+                            "id": "9d92a3f4-97e5-4301-a12b-5adad2eec5b1",
                             "type": "Article",
-                            "title": "What to Expect From Star Wars in 2025",
-                            "subtitle": "Andor finally returns alongside Star Wars: Visions, and the High Republic reaches its end.",
-                            "promoteAt": "2025-01-11T21: 17: 00.000Z",
-                            "publishDate": "2025-01-04T15: 00: 00.000Z",
-                            "slug": "what-to-expect-from-star-wars-in-2025",
-                            "feedTitle": "What to Expect From Star Wars in 2025",
+                            "title": "Rivals Update 9 Introduces the Gunblade and Bridge Map as Nosniy Prepares to Add Ranked Mode",
+                            "subtitle": "Roblox fans almost have their hands on a long-awaited feature.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-24T18:00:00.000Z",
+                            "slug": "rivals-update-9-introduces-the-gunblade-and-bridge-map-as-nosniy-prepares-to-add-ranked-mode",
+                            "feedTitle": "Rivals Update 9 Introduces the Gunblade and Bridge Map as Nosniy Prepares to Add Ranked Mode",
                             "feedImage": {
-                                "url": "https: //assets-prd.ignimgs.com/2024/12/20/starwars-in-2025-blogroll-1734722520037.jpg",
+                                "url": "https://assets-prd.ignimgs.com/2025/01/22/roblox-rivals-update-9-1737584712212.png",
                                 "__typename": "Image"
                             },
                             "v3Id": null,
-                            "url": "/articles/what-to-expect-from-star-wars-in-2025",
+                            "url": "/articles/rivals-update-9-introduces-the-gunblade-and-bridge-map-as-nosniy-prepares-to-add-ranked-mode",
                             "__typename": "ModernContent",
                             "contributors": [
                                 {
-                                    "id": "01fe4104-b4b0-11ea-b2e3-0e7c1d759882",
-                                    "name": "Jesse Schedeen",
-                                    "nickname": "Kicksplode",
+                                    "id": "e989121d-b4b0-11ea-b2e3-0e7c1d759882",
+                                    "name": "Michael Cripe",
+                                    "nickname": "MikeCripe",
                                     "__typename": "Contributor"
                                 }
                             ],
                             "primaryObject": {
-                                "id": "d4efe71e-8eee-4019-ab55-cb495c48781b",
-                                "url": "/tv/star-wars-ahsoka",
-                                "slug": "star-wars-ahsoka",
-                                "type": "Show",
+                                "id": "bd8ae60d-7ee3-4d64-84e8-6cd92a482034",
+                                "url": "/games/rivals-roblox",
+                                "slug": "rivals-roblox",
+                                "type": "Game",
                                 "metadata": {
                                     "names": {
-                                        "name": "Star Wars: Ahsoka",
-                                        "alt": [
-                                            "Ahsoka Tano: A Star Wars Story"
-                                        ],
-                                        "short": "Ahsoka",
+                                        "name": "RIVALS [Roblox]",
+                                        "alt": [],
+                                        "short": "RIVALS",
                                         "__typename": "Names"
                                     },
                                     "__typename": "Metadata"
                                 },
                                 "objectRegions": [
                                     {
-                                        "id": 2149578,
+                                        "id": 2270343,
                                         "name": null,
                                         "region": "US",
                                         "releases": [
                                             {
-                                                "id": "3bef070f-a5d0-48d9-9e3c-a0fb3f7fc1a2",
-                                                "date": "2023-08-22",
+                                                "id": "3ce58c89-68d4-4eb8-8156-6821a36a160b",
+                                                "date": "2024-05-26",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 4236779,
-                                                        "name": "TV",
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -311,17 +526,17 @@
                                         "__typename": "ObjectRegion"
                                     },
                                     {
-                                        "id": 2149579,
+                                        "id": 2270344,
                                         "name": null,
                                         "region": "AU",
                                         "releases": [
                                             {
-                                                "id": "aaba870e-957f-46fa-9597-575ab90f25c5",
-                                                "date": "2023-08-22",
+                                                "id": "fbe72406-5390-4847-930a-cdbefd2f4e17",
+                                                "date": "2024-05-26",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 4236779,
-                                                        "name": "TV",
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -331,17 +546,37 @@
                                         "__typename": "ObjectRegion"
                                     },
                                     {
-                                        "id": 2149580,
+                                        "id": 2270345,
                                         "name": null,
                                         "region": "UK",
                                         "releases": [
                                             {
-                                                "id": "7ab560a1-4841-46ba-b7ba-d59c0b6bfb5a",
-                                                "date": "2023-08-22",
+                                                "id": "1c142a0f-a2b0-482a-a14b-fd9e9111b61e",
+                                                "date": "2024-05-26",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 4236779,
-                                                        "name": "TV",
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2270346,
+                                        "name": null,
+                                        "region": "JP",
+                                        "releases": [
+                                            {
+                                                "id": "b1144d1a-aee0-4421-85fc-b6e432fb1309",
+                                                "date": "2024-05-26",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 10013203,
+                                                        "name": "Roblox",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -353,7 +588,7 @@
                                 ],
                                 "franchises": [
                                     {
-                                        "name": "Star Wars",
+                                        "name": "Roblox",
                                         "__typename": "Attribute"
                                     }
                                 ],
@@ -361,23 +596,384 @@
                             },
                             "abTests": [
                                 {
-                                    "id": 53443,
+                                    "id": 53894,
                                     "represents": "promoTitle",
                                     "values": [
-                                        "What to Expect From Star Wars in 2025",
-                                        "Andor, The High Republic Finale, and More Big Star Wars Projects Coming in 2025"
+                                        "Rivals Update 9 Introduces the Gunblade and Bridge Map as Nosniy Prepares to Add Ranked Mode",
+                                        "Rivals Gets New Weapon and Map as Ranked Mode Looms"
                                     ],
-                                    "winnerIndex": 1,
+                                    "winnerIndex": null,
                                     "__typename": "ABTest"
                                 }
                             ],
                             "sponsorships": null,
                             "contentCategory": {
-                                "id": 6,
-                                "name": "Feature",
+                                "id": 1,
+                                "name": "News",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": {
+                                "id": 402,
+                                "slug": "codes24",
+                                "name": "Codes24",
+                                "logoLight": null,
+                                "logoDark": null,
+                                "__typename": "Brand"
+                            },
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "581f61d2-0b7f-443e-bae4-057eeaa08d26",
+                            "type": "Article",
+                            "title": "Ninja Gaiden 2 Black Gets a Physical Release on PS5 Only",
+                            "subtitle": "Cut-price deal.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-24T16:55:05.123Z",
+                            "slug": "ninja-gaiden-2-black-gets-a-physical-release-on-ps5-only",
+                            "feedTitle": "Ninja Gaiden 2 Black Gets a Physical Release on PS5 Only",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2025/01/24/ngb2-1737737470497.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/ninja-gaiden-2-black-gets-a-physical-release-on-ps5-only",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "ad651d6b-b2ae-4500-bed9-cb7b5247c0b6",
+                                    "name": "Wesley Yin-Poole",
+                                    "nickname": "wyp",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "723c8a4d-ad36-42c7-a0fd-080494b1d7b1",
+                                "url": "/games/ninja-gaiden-2-black",
+                                "slug": "ninja-gaiden-2-black",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Ninja Gaiden 2 Black",
+                                        "alt": [],
+                                        "short": null,
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2280733,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "01ea162c-c2c3-461b-b2f2-f3a99b38e585",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "767c687d-9952-4345-aa66-03e19ce67b42",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e304865a-e8c9-4e05-bce9-a96530dc3dc2",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2280734,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "7547707b-3fe3-498f-8863-706cd6ae24a4",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "a5d20ab6-5019-4669-a8e8-44cb47014e30",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e7a7cbde-b8b1-4a0a-922e-7056e1c014de",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2280735,
+                                        "name": null,
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "4d6c4993-bb3d-4ead-bdb3-5ee549dff00a",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b25cacdb-1bb0-458c-8094-885c02409e04",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b93331cd-ecae-4a1f-85ff-e6c5ccc41aaa",
+                                                "date": "2025-01-23",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Ninja Gaiden",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53949,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "Ninja Gaiden 2 Black Gets a Physical Release on PS5 Only",
+                                        "Ninja Gaiden 2 Black PS5 Physical Release Confirmed, No Word on Xbox"
+                                    ],
+                                    "winnerIndex": 0,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 1,
+                                "name": "News",
                                 "__typename": "ContentCategory"
                             },
                             "brand": null,
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "2a0fa23d-0aed-464a-9c33-43790669c404",
+                            "type": "Article",
+                            "title": "Pok�mon TCG: Scarlet and Violet - Prismatic Evolutions Review: The Ultimate Crown Jewel of This Era",
+                            "subtitle": "Stock has been hard to come by, but it's worth investing in.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-24T16: 20: 27.513Z",
+                            "slug": "pokemon-tcg-prismatic-evolutions-review",
+                            "feedTitle": "Is Pok�mon TCG: Prismatic Evolutions Worth The Hype?",
+                            "feedImage": {
+                                "url": "https: //assets-prd.ignimgs.com/2025/01/24/is-prismatic-evolutions-worth-it-ign-review-2025-1737712587770.png",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/pokemon-tcg-prismatic-evolutions-review",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "97d9e91f-892f-48dd-ba07-99bd12bd0805",
+                                    "name": "Christian Wait",
+                                    "nickname": "ChristianWait",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "5fa8c5a3-18df-4bbe-9737-7d71ceb543de",
+                                "url": "/games/pokemon-trading-card-game-tabletop",
+                                "slug": "pokemon-trading-card-game-tabletop",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Pokemon Trading Card Game",
+                                        "alt": [
+                                            "Pokemon Trading Card Game [Tabletop]"
+                                        ],
+                                        "short": "Pokemon TCG",
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 1660217,
+                                        "name": "Pokemon Trading Card Game",
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "48e08e52-432a-483d-b55f-905233533473",
+                                                "date": "1999-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5713891,
+                                                        "name": "Tabletop",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 1660218,
+                                        "name": "Pokemon Trading Card Game",
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "516a1517-cfcc-4283-b96f-3f8f83f4e0ae",
+                                                "date": "1999-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5713891,
+                                                        "name": "Tabletop",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 1660219,
+                                        "name": "Pokemon Trading Card Game",
+                                        "region": "JP",
+                                        "releases": [
+                                            {
+                                                "id": "f2f3c960-e58d-4aff-a74a-7b34166ef203",
+                                                "date": "1996-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5713891,
+                                                        "name": "Tabletop",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 1660220,
+                                        "name": "Pokemon Trading Card Game",
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "f0ac437e-cb68-4625-879e-b906e994936c",
+                                                "date": "1999-12-31",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5713891,
+                                                        "name": "Tabletop",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Pokemon",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 16,
+                                "name": "Shopping",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": {
+                                "id": 324,
+                                "slug": "us-commerce",
+                                "name": "US Commerce",
+                                "logoLight": null,
+                                "logoDark": null,
+                                "__typename": "Brand"
+                            },
                             "sequenceNumber": null
                         },
                         "__typename": "ModernArticle"

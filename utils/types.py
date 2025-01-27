@@ -13,6 +13,7 @@ class ContentType(Enum):
     GAME_DESIGN = "game_design"
     INDIE_DEV = "indie_dev"
     GAME_MARKETING = "game_marketing"
+    GAME_NEWS_SOURCE = "game_news_source"
 
 class TweetType(Enum):
     NORMAL = "normal"
@@ -30,6 +31,7 @@ class Tweet:
     content: str
     tweet_type: TweetType
     image_path: Optional[str] = None
+    image_url: Optional[str] = None
     poll_options: Optional[List[PollOption]] = None
     thread_tweets: Optional[List[str]] = None
     

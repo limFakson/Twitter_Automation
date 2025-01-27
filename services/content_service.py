@@ -1,8 +1,8 @@
 import logging
 import random
 from typing import Optional
-from content.types import Tweet, TweetType, ContentType, PollOption
-from content.prompts import get_prompt
+from utils.types import Tweet, TweetType, ContentType, PollOption
+from utils.prompts import get_prompt
 from services.gemini_service import GeminiService
 
 logger = logging.getLogger(__name__)
@@ -16,6 +16,15 @@ class ContentService:
         try:
             content_type = random.choice(list(ContentType))
             return self.gemini.generate_tweet(content_type)
+        except Exception as e:
+            logger.error(f"Failed to generate tweet: {e}")
+            raise
+    
+    def generate_tweet_news(self, input) -> Tweet:
+        """"Generate news tweet from ign news"""
+        try:
+            content_type = ContentType.GAME_NEWS_SOURCE
+            return self.gemini.generate_tweet_news(content_type, input)
         except Exception as e:
             logger.error(f"Failed to generate tweet: {e}")
             raise

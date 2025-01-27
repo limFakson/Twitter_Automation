@@ -1,8 +1,10 @@
 import tweepy
 import logging
+import requests
+import os
 from typing import Optional
 from config.environment import load_environment
-from content.types import Tweet, TweetType
+from utils.types import Tweet, TweetType
 
 logger = logging.getLogger(__name__)
 
@@ -52,11 +54,24 @@ class TwitterService:
             if tweet.image_path:
                 media = self.api.media_upload(tweet.image_path)
                 media_ids.append(media.media_id)
+            elif tweet.image_url:
+                image_loc = "temp_image.jpg" # image path
+                # download the image from url
+                response = requests.get(tweet.image_url, stream=True)
+                with open(image_loc, "wb") as f:
+                    f.write(response.content)
+                
+                # upload downloaded image
+                media = self.api.media_upload(image_loc)
+                media_ids.append(media.media_id)
+                
             
             self.client.create_tweet(
                 text=tweet.content,
                 media_ids=media_ids if media_ids else None
             )
+            
+            
             return True
         except Exception as e:
             logger.error(f"Error posting single tweet: {e}")

@@ -3,8 +3,8 @@ import random
 import google.generativeai as genai
 from typing import Optional, List
 from config.environment import load_environment
-from content.types import MemeTemplate, Tweet, TweetType, ContentType, PollOption
-from content.prompts import get_prompt
+from utils.types import MemeTemplate, Tweet, TweetType, ContentType, PollOption
+from utils.prompts import get_prompt
 
 logger = logging.getLogger(__name__)
 
@@ -12,25 +12,59 @@ class GeminiService:
     def __init__(self):
         config = load_environment()
         genai.configure(api_key=config["GEMINI_API_KEY"])
-        self.model = genai.GenerativeModel('gemini-2.0')
+        self.model = genai.GenerativeModel('gemini-2.0-flash-exp')
     
-    def generate_tweet(self, content_type: ContentType) -> Tweet:
+    def generate_tweet(self, content_type: ContentType, inputer=None) -> Tweet:
         """Generate tweet content using Gemini AI"""
         try:
             prompt = get_prompt(content_type)
-            response = self.model.generate_content(prompt)
-            
+            if inputer is None:
+                response = self.model.generate_content(prompt)
+            else:
+                response = self.model.generate_content(prompt+str(inputer))           
+            print(response.text)
+            print(response)
             if content_type == ContentType.GAME_DEV_THREAD:
                 return self._create_thread(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_POLL:
                 return self._create_poll(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_MEME:
                 return self._create_meme(f"{response.text}")
+            elif content_type == ContentType.GAME_NEWS_SOURCE:
+                return Tweet(
+                    content=self._format_tweet(f"{response.text}"),
+                    tweet_type=TweetType.NORMAL,
+                    image_path=None
+                )
             else:
                 return Tweet(
                     content=self._format_tweet(f"{response.text}"),
                     tweet_type=TweetType.NORMAL
                 )
+        
+        except Exception as e:
+            logger.error(f"Gemini content generation failed: {e}")
+            raise
+    
+    def generate_tweet_news(self, content_type: ContentType, message)->Tweet:
+        """Generate tweet content using Gemini AI"""
+        try:
+            prompt = get_prompt(content_type)
+            print(message)
+            history = [
+                {
+                    "role":"user",
+                    "parts":prompt
+                }
+            ]
+            chat_session = self.model.start_chat(history=history)
+            response = chat_session.send_message(str(message['title']) +"\n"+str(message["description"]))      
+            
+            return Tweet(
+                content=self._format_tweet(f"{response.text}"),
+                tweet_type=TweetType.NORMAL,
+                image_url=message['image']
+            )
         
         except Exception as e:
             logger.error(f"Gemini content generation failed: {e}")

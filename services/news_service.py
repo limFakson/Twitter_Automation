@@ -33,7 +33,7 @@ class NewsService:
         responce = requests.post(self.url, json=params, headers=headers)
         ign_news = responce.json()
         content_feeds = ign_news["data"]["homepage"]["contentFeed"]["feedItems"]
-        news_params = None
+        news_params = []
         for feeds in content_feeds:
             news_feed = feeds["content"]
             if not self.id_exists(news_feed["id"]):
@@ -44,15 +44,16 @@ class NewsService:
                     else None
                 )
                 async_to_sync(self.write_post_log)(news_feed["id"])
-                news_params = {
+                news_params.append({
                     "title": news_feed["title"],
                     "image": news_image,
                     "description": news_description,
-                }
+                })
             else:
                 logger.error(f"No recent news for now")
+                break
                 return 
-            break  # Get news info only once
+            # break  # Get news info only once
         return news_params
 
     async def write_post_log(self, id) -> bool:

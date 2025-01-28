@@ -39,8 +39,8 @@ class TwitterService:
         try:
             if tweet.tweet_type == TweetType.THREAD:
                 return self._post_thread(tweet)
-            elif tweet.tweet_type == TweetType.POLL:
-                return self._post_poll(tweet)
+            # elif tweet.tweet_type == TweetType.POLL:
+            #     return self._post_poll(tweet)
             else:
                 return self._post_single(tweet)
         except Exception as e:

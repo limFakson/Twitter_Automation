@@ -82,8 +82,9 @@ class TelegramService:
                 )
                 return
             
-            tweet = self.content_service.generate_tweet_news(news_feed)
-            self.send_preview(tweet)
+            for news in news_feed:
+                tweet = self.content_service.generate_tweet_news(news)
+                self.send_preview(tweet)
 
             # self.updater.start_polling()
             # self.updater.idle()
@@ -184,7 +185,11 @@ class TelegramService:
             success = self.twitter.post_tweet(tweet)
             if success:
                 try:
-                    query.edit_message_text(text="Tweet successfully posted!")
+                    if query.message.photo or query.message.video or query.message.document:
+                        query.message.reply_text("Tweet successfully posted!")
+                    else:
+                        query.edit_message_text(text="Tweet successfully posted!")
+                    
                     del self.pending_tweets[message_id]
                 except Exception as e:
                     print(f"Error displaying message \n error-{e}")
@@ -192,7 +197,10 @@ class TelegramService:
                 query.edit_message_text(text="Failed to post tweet. Check logs.")
 
         elif query.data == "decline":
-            query.edit_message_text(text="Tweet Declined!")
+            if query.message.photo or query.message.video or query.message.document:
+                query.message.reply_text("Tweet Declined!")
+            else:
+                query.edit_message_text(text="Tweet Declined!")
             del self.pending_tweets[message_id]
 
         elif query.data in ["edit", "edit_thread", "edit_poll"]:

@@ -3,7 +3,7 @@
         "homepage": {
             "contentFeed": {
                 "pagination": {
-                    "total": 208,
+                    "total": 214,
                     "isMore": "True",
                     "endIndex": 5,
                     "__typename": "Pagination"
@@ -11,118 +11,1430 @@
                 "feedItems": [
                     {
                         "content": {
-                            "id": "7619f427-7ed9-49fd-88d4-61fbe53cfb64",
+                            "id": "1f3ea4ed-7a7d-4927-b937-dc1f1f0e70ed",
                             "type": "Article",
-                            "title": "Save 40% Off Arzopa USB Portable Monitors (Nintendo Switch and Steam Deck Compatible)",
-                            "subtitle": "A great USB Type-C portable display for your laptop, tablet, or gaming handheld.",
+                            "title": "Hogwarts Legacy PC Mod Support Launches Later This Week With Free Update",
+                            "subtitle": "Revelio.",
                             "promoteAt": null,
-                            "publishDate": "2025-01-24T23:55:00.000Z",
-                            "slug": "best-usb-portable-monitor-deals-2025-arzopa",
-                            "feedTitle": "Save 40% Off Arzopa USB Portable Monitors (Switch Compatible)",
+                            "publishDate": "2025-01-27T17:59:01.929Z",
+                            "slug": "hogwarts-legacy-pc-mod-support-launches-later-this-week-with-free-update",
+                            "feedTitle": "Hogwarts Legacy PC Mod Support Launches Later This Week With Free Update",
                             "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2024/08/05/arzopas1-1722886902764.jpg",
+                                "url": "https://assets-prd.ignimgs.com/2025/01/27/hogwarts-legacy-mod-support-1738000054633.png",
                                 "__typename": "Image"
                             },
                             "v3Id": null,
-                            "url": "/articles/best-usb-portable-monitor-deals-2025-arzopa",
+                            "url": "/articles/hogwarts-legacy-pc-mod-support-launches-later-this-week-with-free-update",
                             "__typename": "ModernContent",
                             "contributors": [
                                 {
-                                    "id": "8a77c78f-b4b1-11ea-b2e3-0e7c1d759882",
-                                    "name": "Eric Song",
-                                    "nickname": "eksong82",
+                                    "id": "e989121d-b4b0-11ea-b2e3-0e7c1d759882",
+                                    "name": "Michael Cripe",
+                                    "nickname": "MikeCripe",
                                     "__typename": "Contributor"
                                 }
                             ],
                             "primaryObject": {
-                                "id": "d1e57708-b5aa-4094-9050-be793aefe3e9",
-                                "url": "/games/nintendo-switch",
-                                "slug": "nintendo-switch",
+                                "id": "4365eefc-97b9-4937-94ac-c6f466d31a78",
+                                "url": "/games/hogwarts-legacy",
+                                "slug": "hogwarts-legacy",
                                 "type": "Game",
                                 "metadata": {
                                     "names": {
-                                        "name": "Nintendo Switch",
+                                        "name": "Hogwarts Legacy",
                                         "alt": [
-                                            "Nintendo NX [working title]"
+                                            "Harry Potter Next-Gen",
+                                            "Harry Potter Hogwarts Legacy",
+                                            "The Wizarding World of Harry Potter: Hogwarts Legacy",
+                                            "Harry Potter RPG Project"
                                         ],
-                                        "short": "Nintendo Switch",
+                                        "short": null,
                                         "__typename": "Names"
                                     },
                                     "__typename": "Metadata"
                                 },
                                 "objectRegions": [
                                     {
-                                        "id": 1933295,
-                                        "name": "Nintendo Switch",
-                                        "region": "US",
-                                        "releases": [
-                                            {
-                                                "id": "f20685b7-559f-49ae-9991-c464f0e31161",
-                                                "date": "2017-03-03",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5233074,
-                                                        "name": "Nintendo Switch",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 1933296,
-                                        "name": "Nintendo Switch",
-                                        "region": "AU",
-                                        "releases": [
-                                            {
-                                                "id": "c92077c0-b151-4e2e-8310-ffa666301c15",
-                                                "date": "2017-03-03",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5233074,
-                                                        "name": "Nintendo Switch",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 1933297,
-                                        "name": "Nintendo Switch",
-                                        "region": "JP",
-                                        "releases": [
-                                            {
-                                                "id": "20540a08-1769-48f4-adb7-f5d2f5430b4d",
-                                                "date": "2017-03-03",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5233074,
-                                                        "name": "Nintendo Switch",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 1933298,
-                                        "name": "Nintendo Switch",
+                                        "id": 2263019,
+                                        "name": null,
                                         "region": "UK",
                                         "releases": [
                                             {
-                                                "id": "bb05d6ac-b1fe-4d36-a0dc-23ab69ed6343",
-                                                "date": "2017-03-03",
+                                                "id": "371c2fcb-d6d4-4733-9918-614c7445d162",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "4069f625-2b5b-4421-a3fd-63ca84202b78",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "c19967f5-6f8a-4c02-a5f0-fb8b1f3d5a72",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "73399b3a-3b93-429d-bb23-f651fd394b56",
+                                                "date": "2023-05-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "a55e1d8f-1038-4119-8d43-34522f25d10c",
+                                                "date": "2023-05-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "ba20838a-ece5-47f7-902d-0a124a3c6da8",
+                                                "date": "2023-11-14",
                                                 "platformAttributes": [
                                                     {
                                                         "id": 5233074,
                                                         "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2263020,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "1617c7db-f763-46e3-b7c8-5192f48b7eed",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "7f445482-f588-4a62-8732-b5472ffa7a26",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "eccd27e8-d712-4316-9c56-cdc6c6a15a4a",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "8b0bb102-7dc8-4210-a01a-3328fd8dac35",
+                                                "date": "2023-05-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "cd8068fc-846b-4364-abd2-156fb86b93ca",
+                                                "date": "2023-05-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "db85c78b-1ea6-4f86-91ad-8454f64f883d",
+                                                "date": "2023-11-14",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2263021,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "40ed5c6a-7a5c-4894-b944-0188ae74ba2a",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "645d09c7-18fd-48fc-b6a0-140e2ae29116",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "aafe2867-e777-400f-98d2-9858c5dcc64c",
+                                                "date": "2023-02-10",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "6793fa2f-8231-488f-acb9-44a7fd91145d",
+                                                "date": "2023-05-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b7899f6c-32ba-48f7-bd8f-7658804cf088",
+                                                "date": "2023-05-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "c1582d29-355f-4305-ac28-81f8fbe690b3",
+                                                "date": "2023-11-14",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Harry Potter",
+                                        "__typename": "Attribute"
+                                    },
+                                    {
+                                        "name": "Wizarding World",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53982,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "Hogwarts Legacy PC Mod Support Launches Later This Week With Free Update",
+                                        "Hogwarts Legacy PC Mod Support Arrives With Fan-Made Quests and Cosmetics This Week"
+                                    ],
+                                    "winnerIndex": 0,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 1,
+                                "name": "News",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": null,
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "da75c93a-18af-4286-9595-755f8d98b178",
+                            "type": "Article",
+                            "title": "Baldur's Gate 3 Patch 8 Accidentally Released Early to PS5 Players",
+                            "subtitle": "Mondays, am I right?",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-27T17:10:59.139Z",
+                            "slug": "baldurs-gate-3-patch-8-accidentally-released-early-to-ps5-players",
+                            "feedTitle": "Baldur's Gate 3 Patch 8 Accidentally Released Early to PS5 Players",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2023/12/22/baldursgatesettingsing-1703240574230.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/baldurs-gate-3-patch-8-accidentally-released-early-to-ps5-players",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "38948b2b-e40c-401e-aedd-75d228c4c00b",
+                                    "name": "Rebekah Valentine",
+                                    "nickname": "duckvalentine",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "31aa1257-77b5-4be3-a537-7994f5ffa3e2",
+                                "url": "/games/baldurs-gate-iii",
+                                "slug": "baldurs-gate-iii",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Baldur's Gate III",
+                                        "alt": [
+                                            "Forgotten Realms: Baldur's Gate III",
+                                            "Dungeons and Dragons: Baldur's Gate III",
+                                            "D&D: Baldur's Gate III",
+                                            "Baldur's Gate 3"
+                                        ],
+                                        "short": "",
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2174841,
+                                        "name": "",
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "20308ff5-3d8b-4562-a500-12364fbf69f1",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b3d01096-ac7b-4425-9256-a3bbf4e2ebdf",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473729,
+                                                        "name": "Macintosh",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e9e2ccfe-c6e8-4478-80b3-c33d528809c0",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5631604,
+                                                        "name": "Stadia",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "fd461fd2-5e28-4f17-9ad7-3e577bf0d6b6",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "bff16989-85ce-4f83-adbd-14aabbc9b08e",
+                                                "date": "2023-09-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "442c89f5-1a4c-4946-9fe1-8de3b7ba82b4",
+                                                "date": "2023-12-07",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2174842,
+                                        "name": "",
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "06872bb3-bf5e-4bc6-8aa9-5a04289b1711",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473729,
+                                                        "name": "Macintosh",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "1d189309-188b-4cfe-85eb-f2163960fcd9",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5631604,
+                                                        "name": "Stadia",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "8b7fbf1b-d57a-41f2-8847-075dc1a54740",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "9aaa553c-9ceb-4b18-861e-3b74f4e885c1",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "3c1940e4-a724-45c6-84d3-2a01a56cd999",
+                                                "date": "2023-09-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "a230d28e-ecab-49db-9de7-28c78fb05d5c",
+                                                "date": "2023-12-07",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2174843,
+                                        "name": "",
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "446c0f62-2a23-4835-a59b-470f700e5124",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473729,
+                                                        "name": "Macintosh",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "699ac0c4-0348-47de-a3d4-dc3544c6f7ab",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "c82b8b8f-22ec-420d-b147-bd6cd298329d",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "d89e237e-75c3-4b20-8d6b-666f226a2106",
+                                                "date": "2023-07-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5631604,
+                                                        "name": "Stadia",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "d9e30ba0-35e7-42fe-8d52-c23503a44820",
+                                                "date": "2023-09-04",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "76e7f150-2543-45c1-a237-e59cb27460a7",
+                                                "date": "2023-12-07",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2174844,
+                                        "name": null,
+                                        "region": "JP",
+                                        "releases": [
+                                            {
+                                                "id": "8b38da6a-e26a-4a15-9f80-0b6d937deb6b",
+                                                "date": "2023-12-21",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Dungeons and Dragons [D&D]",
+                                        "__typename": "Attribute"
+                                    },
+                                    {
+                                        "name": "Baldur's Gate",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53981,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "Baldur's Gate 3 Patch 8 Accidentally Released Early to PS5 Players",
+                                        "Baldur's Gate 3 Patch 8 Is Out on PS5...But It's Not Supposed to Be"
+                                    ],
+                                    "winnerIndex": 1,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 1,
+                                "name": "News",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": null,
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "d38d9d7b-7ef7-4f33-9459-868e9d8c9153",
+                            "type": "Article",
+                            "title": "Pok�mon TCG Pocket Issues Warning Against Cheating Ahead of Trading Feature Launch",
+                            "subtitle": "Play nice.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-27T16:37:46.801Z",
+                            "slug": "pokmon-tcg-pocket-issues-warning-against-cheating-ahead-of-trading-feature-launch",
+                            "feedTitle": "Pok�mon TCG Pocket Issues Warning Against Cheating Ahead of Trading Feature Launch",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2024/11/07/poke-swag-1730983015863.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/pokmon-tcg-pocket-issues-warning-against-cheating-ahead-of-trading-feature-launch",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "38948b2b-e40c-401e-aedd-75d228c4c00b",
+                                    "name": "Rebekah Valentine",
+                                    "nickname": "duckvalentine",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "759f5497-f034-43f9-83b6-985c747c0495",
+                                "url": "/games/pokemon-tcg-pocket",
+                                "slug": "pokemon-tcg-pocket",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Pokemon TCG Pocket",
+                                        "alt": [
+                                            "Pokemon TCG Pocket",
+                                            "Pokemon Trading Card Game Pocket"
+                                        ],
+                                        "short": null,
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2272064,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "27ff2c4e-b8a9-426e-a46b-ebb4b2a50a87",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4474945,
+                                                        "name": "Android",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "88381ca8-d875-41ab-ae07-8efb37b04aa0",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473408,
+                                                        "name": "iPhone",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "ba38ba61-7d79-4648-b3f4-9edda64bf099",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4475321,
+                                                        "name": "iPad",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2272065,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "0f8dbbbf-3163-4b0d-af28-75bf7aeb4062",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4474945,
+                                                        "name": "Android",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "654acae6-5317-44d2-b8d6-fadc1c1049d2",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473408,
+                                                        "name": "iPhone",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "7598e8e3-f1cb-49c3-87e9-9ddd8b7c40d3",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4475321,
+                                                        "name": "iPad",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2272066,
+                                        "name": null,
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "b0daa77e-5775-41a9-bbbb-366b81320e7d",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4474945,
+                                                        "name": "Android",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b590d49d-de63-42b9-9073-e8d4585b7e4d",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473408,
+                                                        "name": "iPhone",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e0e34e58-5e85-427b-ae61-af8cc49975ea",
+                                                "date": "2024-10-30",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4475321,
+                                                        "name": "iPad",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Pokemon",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [
+                                {
+                                    "id": 53979,
+                                    "represents": "promoTitle",
+                                    "values": [
+                                        "Pok�mon TCG Pocket Issues Warning Against Cheating Ahead of Trading Feature Launch",
+                                        "Pok�mon TCG Pocket Issues Strict Warning to Cheaters"
+                                    ],
+                                    "winnerIndex": 0,
+                                    "__typename": "ABTest"
+                                }
+                            ],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 1,
+                                "name": "News",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": null,
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "31096f36-4ab3-48e8-a114-c2f4580e729e",
+                            "type": "Article",
+                            "title": "How to Play the Final Fantasy Games in Order",
+                            "subtitle": "The Final Fantasy timeline, explained.",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-27T16:02:00.000Z",
+                            "slug": "final-fantasy-games-in-order",
+                            "feedTitle": "The Full Timeline of Final Fantasy Games",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2023/09/15/ff7-rebirth-1694780641628.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/final-fantasy-games-in-order",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "1caafced-49f8-465f-884a-96233fd5c400",
+                                    "name": "Cristina Alexander",
+                                    "nickname": "SonicPrincess15",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "7c3abae7-9c2e-4c96-aa3d-d29948c5656c",
+                                "url": "/games/crisis-core-final-fantasy-vii-reunion",
+                                "slug": "crisis-core-final-fantasy-vii-reunion",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Crisis Core: Final Fantasy VII Reunion",
+                                        "alt": [
+                                            "Crisis Core: FF VII Reunion",
+                                            "\nFinal Fantasy 7 Reunion: Crisis Core",
+                                            "\nFF 7 Reunion: Crisis Core",
+                                            "\n\nFinal Fantasy VII Reunion: Crisis Core"
+                                        ],
+                                        "short": "Crisis Core: Final Fantasy 7 Reunion",
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2076945,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "40bb6e4a-381c-4fd1-afef-6b3629355f78",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "5b47c2c1-4156-47df-ae86-4849f2a08d01",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "6277a48c-dcc2-4484-b416-2edd2c5173c3",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "8cd37b87-734b-4073-a8ae-2ec8077406b0",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "c50b27e1-5b43-4593-8567-1411166d9bc0",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "fb29f4fb-0ea5-48dd-94bc-b08af270d98b",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2076946,
+                                        "name": null,
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "05f653ff-123a-40dd-821d-236315d8b808",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "934355af-d847-46bd-9fe5-941b776d2595",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "ba73021c-ea19-4616-94e3-04b296bf691f",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "db55f778-c37a-4020-93c3-52ca28de7bce",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e73a250e-6c81-4129-aead-5d404dcb6d3f",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "f625f37b-e1c3-4135-9c0c-356e43c2d83f",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2076947,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "856773f4-2bac-4a78-9800-076df47f6d49",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "8933ca81-60a7-488e-be64-acc89528b2d5",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "8f644246-ac77-4ac9-b1e3-70938a680fc4",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "9d798a1e-a2eb-49bf-8ab7-366c40ccfc4d",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "a69ce3b2-4685-4727-9ebd-0e6b26a38cbd",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "dd41659c-fc03-4db0-919f-72442872f033",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2076948,
+                                        "name": null,
+                                        "region": "JP",
+                                        "releases": [
+                                            {
+                                                "id": "0627b9c7-55d6-47fe-918a-f68c06e71ab6",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473462,
+                                                        "name": "PlayStation 4",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "1ff62502-8992-4abf-9945-df20908e950c",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5233074,
+                                                        "name": "Nintendo Switch",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "377741a8-9262-486b-ad05-2d57e17f5c70",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4553331,
+                                                        "name": "Xbox One",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "6a68b538-248e-471b-94ad-7a58f74a444a",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "9c0abddd-4e74-45c9-90cf-8cf79ec6eb7d",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "a6b06ab9-d119-4282-8c7d-d6c93a1ce1c8",
+                                                "date": "2022-12-13",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    }
+                                ],
+                                "franchises": [
+                                    {
+                                        "name": "Final Fantasy",
+                                        "__typename": "Attribute"
+                                    }
+                                ],
+                                "__typename": "Object"
+                            },
+                            "abTests": [],
+                            "sponsorships": null,
+                            "contentCategory": {
+                                "id": 5,
+                                "name": "Lists",
+                                "__typename": "ContentCategory"
+                            },
+                            "brand": {
+                                "id": 318,
+                                "slug": "ign-evergreen",
+                                "name": "IGN Evergreen",
+                                "logoLight": null,
+                                "logoDark": null,
+                                "__typename": "Brand"
+                            },
+                            "sequenceNumber": null
+                        },
+                        "__typename": "ModernArticle"
+                    },
+                    {
+                        "content": {
+                            "id": "eefab4b7-37cf-4b3f-8435-56d8397b7d54",
+                            "type": "Article",
+                            "title": "Eternal Strands Review",
+                            "subtitle": "It doesn't land every shot it takes, but it lands enough to be an impressive action RPG. ",
+                            "promoteAt": null,
+                            "publishDate": "2025-01-27T16:00:00.000Z",
+                            "slug": "eternal-strands-review",
+                            "feedTitle": "Eternal Strands Review",
+                            "feedImage": {
+                                "url": "https://assets-prd.ignimgs.com/2025/01/25/es-review-blogroll-1737769272861.jpg",
+                                "__typename": "Image"
+                            },
+                            "v3Id": null,
+                            "url": "/articles/eternal-strands-review",
+                            "__typename": "ModernContent",
+                            "contributors": [
+                                {
+                                    "id": "86b71c96-b4b1-11ea-b2e3-0e7c1d759882",
+                                    "name": "Mitchell Saltzman",
+                                    "nickname": "Mitchell-IGN",
+                                    "__typename": "Contributor"
+                                }
+                            ],
+                            "primaryObject": {
+                                "id": "328fa9d9-3733-4f1b-bc6b-e720a26b3381",
+                                "url": "/games/eternal-strands",
+                                "slug": "eternal-strands",
+                                "type": "Game",
+                                "metadata": {
+                                    "names": {
+                                        "name": "Eternal Strands",
+                                        "alt": [],
+                                        "short": null,
+                                        "__typename": "Names"
+                                    },
+                                    "__typename": "Metadata"
+                                },
+                                "objectRegions": [
+                                    {
+                                        "id": 2273804,
+                                        "name": null,
+                                        "region": "US",
+                                        "releases": [
+                                            {
+                                                "id": "1da72e4a-ac88-46a9-8ed5-ed18a5b37788",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "41b9950e-c3c8-4582-abc2-b328d5a354d7",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "d49f973b-6d5b-486b-a29c-17367710e24b",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2273805,
+                                        "name": null,
+                                        "region": "AU",
+                                        "releases": [
+                                            {
+                                                "id": "07000a14-1699-4155-bcfa-29266ab1bff6",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "679cc653-59b8-44cd-8a3f-bdd33ed5a3a8",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "78349c94-f86e-4cb8-8395-4ceef56ed8c2",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2273806,
+                                        "name": null,
+                                        "region": "UK",
+                                        "releases": [
+                                            {
+                                                "id": "233ddd3e-3ae6-4e73-a8da-6a6e87363887",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711232,
+                                                        "name": "Xbox Series X|S",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b6c38ddb-69f8-4430-89a7-b08997ce958d",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 5711233,
+                                                        "name": "PlayStation 5",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "d14fc4c7-0b98-4346-beec-e7b088cd97e9",
+                                                "date": "2025-01-28",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -138,14 +1450,14 @@
                             "abTests": [],
                             "sponsorships": null,
                             "contentCategory": {
-                                "id": 15,
-                                "name": "Daily Deals",
+                                "id": 3,
+                                "name": "Review",
                                 "__typename": "ContentCategory"
                             },
                             "brand": {
-                                "id": 324,
-                                "slug": "us-commerce",
-                                "name": "US Commerce",
+                                "id": 156,
+                                "slug": "reviews-games",
+                                "name": "Reviews: Games",
                                 "logoLight": null,
                                 "logoDark": null,
                                 "__typename": "Brand"
@@ -156,211 +1468,163 @@
                     },
                     {
                         "content": {
-                            "id": "528c4f17-df64-4866-94c1-a60e81a57df8",
+                            "id": "295d6ed1-2468-4f5a-aee3-6bc7d85bb1fb",
                             "type": "Article",
-                            "title": "Attack on Titan Revolution Update 3 Takes Aim at Bug and Balance Fixes",
-                            "subtitle": "Tatakae.",
+                            "title": "Defiant Modders Release 'GTA Vice City Nextgen Edition' Despite Take-Two Takedown",
+                            "subtitle": "Here we go again.",
                             "promoteAt": null,
-                            "publishDate": "2025-01-24T22:00:00.000Z",
-                            "slug": "attack-on-titan-revolution-update-3-takes-aim-at-bug-and-balance-fixes",
-                            "feedTitle": "Attack on Titan Revolution Update 3 Takes Aim at Bug and Balance Fixes",
+                            "publishDate": "2025-01-27T15:49:48.713Z",
+                            "slug": "defiant-modders-release-gta-vice-city-nextgen-edition-despite-take-two-takedown",
+                            "feedTitle": "Defiant Modders Release 'GTA Vice City Nextgen Edition' Despite Take-Two Takedown",
                             "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/23/attack-on-titan-revolution-update-3-1737654275040.png",
+                                "url": "https://assets-prd.ignimgs.com/2025/01/27/vice-city-1737992805985.jpg",
                                 "__typename": "Image"
                             },
                             "v3Id": null,
-                            "url": "/articles/attack-on-titan-revolution-update-3-takes-aim-at-bug-and-balance-fixes",
+                            "url": "/articles/defiant-modders-release-gta-vice-city-nextgen-edition-despite-take-two-takedown",
                             "__typename": "ModernContent",
                             "contributors": [
                                 {
-                                    "id": "e989121d-b4b0-11ea-b2e3-0e7c1d759882",
-                                    "name": "Michael Cripe",
-                                    "nickname": "MikeCripe",
+                                    "id": "ad651d6b-b2ae-4500-bed9-cb7b5247c0b6",
+                                    "name": "Wesley Yin-Poole",
+                                    "nickname": "wyp",
                                     "__typename": "Contributor"
                                 }
                             ],
                             "primaryObject": {
-                                "id": "dcbdbb04-5e1f-4b09-8e0f-c6b501e76a41",
-                                "url": "/games/attack-on-titan-revolution-roblox",
-                                "slug": "attack-on-titan-revolution-roblox",
+                                "id": "a8119c00-db63-4c65-a668-861ecba0a881",
+                                "url": "/games/grand-theft-auto-iv",
+                                "slug": "grand-theft-auto-iv",
                                 "type": "Game",
                                 "metadata": {
                                     "names": {
-                                        "name": "Attack on Titan Revolution [Roblox]",
-                                        "alt": [],
-                                        "short": "Attack on Titan Revolution",
-                                        "__typename": "Names"
-                                    },
-                                    "__typename": "Metadata"
-                                },
-                                "objectRegions": [
-                                    {
-                                        "id": 2273167,
-                                        "name": null,
-                                        "region": "US",
-                                        "releases": [
-                                            {
-                                                "id": "70eb79b4-7f45-464d-b1fb-f5e0b908af95",
-                                                "date": "2023-05-07",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2273168,
-                                        "name": null,
-                                        "region": "AU",
-                                        "releases": [
-                                            {
-                                                "id": "0371d85f-6e3a-461d-9168-1d8326e3114e",
-                                                "date": "2023-05-07",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2273169,
-                                        "name": null,
-                                        "region": "UK",
-                                        "releases": [
-                                            {
-                                                "id": "b03322b2-9fc5-4fde-b43b-d8fb269e4d50",
-                                                "date": "2023-05-07",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    }
-                                ],
-                                "franchises": [
-                                    {
-                                        "name": "Roblox",
-                                        "__typename": "Attribute"
-                                    }
-                                ],
-                                "__typename": "Object"
-                            },
-                            "abTests": [
-                                {
-                                    "id": 53925,
-                                    "represents": "promoTitle",
-                                    "values": [
-                                        "Attack on Titan Revolution Update 3 Takes Aim at Bug and Balance Fixes",
-                                        "Attack on Titan Revolution Gives Roblox Players Sweeping Quality-of-Life Fixes With Update 3"
-                                    ],
-                                    "winnerIndex": null,
-                                    "__typename": "ABTest"
-                                }
-                            ],
-                            "sponsorships": null,
-                            "contentCategory": {
-                                "id": 1,
-                                "name": "News",
-                                "__typename": "ContentCategory"
-                            },
-                            "brand": {
-                                "id": 402,
-                                "slug": "codes24",
-                                "name": "Codes24",
-                                "logoLight": null,
-                                "logoDark": null,
-                                "__typename": "Brand"
-                            },
-                            "sequenceNumber": null
-                        },
-                        "__typename": "ModernArticle"
-                    },
-                    {
-                        "content": {
-                            "id": "83f20e19-500f-4f8c-b3c9-fbc790b9a21f",
-                            "type": "Article",
-                            "title": "GTA 6 at $100 Would Be 'A Bridge Too Far' � Even for Grand Theft Auto",
-                            "subtitle": "Analysts say there�s no need for a price hike, and it may hurt more than help.",
-                            "promoteAt": null,
-                            "publishDate": "2025-01-24T19:17:07.137Z",
-                            "slug": "gta-6-at-100-would-be-a-bridge-too-far-even-for-grand-theft-auto",
-                            "feedTitle": "GTA 6 at $100 Would Be 'A Bridge Too Far' � Even for Grand Theft Auto",
-                            "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/24/gta-6-grand-theft-auto-vi-official-trailer-1-1737746126590.jpeg",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "/articles/gta-6-at-100-would-be-a-bridge-too-far-even-for-grand-theft-auto",
-                            "__typename": "ModernContent",
-                            "contributors": [
-                                {
-                                    "id": "38948b2b-e40c-401e-aedd-75d228c4c00b",
-                                    "name": "Rebekah Valentine",
-                                    "nickname": "duckvalentine",
-                                    "__typename": "Contributor"
-                                }
-                            ],
-                            "primaryObject": {
-                                "id": "508c68d5-8685-460c-9578-f4356e9bac59",
-                                "url": "/games/grand-theft-auto-vi",
-                                "slug": "grand-theft-auto-vi",
-                                "type": "Game",
-                                "metadata": {
-                                    "names": {
-                                        "name": "Grand Theft Auto VI",
+                                        "name": "Grand Theft Auto IV",
                                         "alt": [
-                                            "GTA 6",
-                                            "\nGTA VI",
-                                            "Grand Theft Auto 6"
+                                            "Grand Theft Auto 4",
+                                            "GTA IV"
                                         ],
-                                        "short": "GTA 6",
+                                        "short": "GTA 4",
                                         "__typename": "Names"
                                     },
                                     "__typename": "Metadata"
                                 },
                                 "objectRegions": [
                                     {
-                                        "id": 2229134,
+                                        "id": 2211749,
+                                        "name": "",
+                                        "region": "JP",
+                                        "releases": [
+                                            {
+                                                "id": "963f5ec6-6f5b-40ad-bfcf-3c30ea76162e",
+                                                "date": "2004-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "5d52a8d6-cbe7-4a89-a3a6-1ce2e0bbfb84",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "752446b4-202a-4314-9900-6b3365297bfd",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "7c64853e-efd6-4248-8d3b-983711c6cb32",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            }
+                                        ],
+                                        "__typename": "ObjectRegion"
+                                    },
+                                    {
+                                        "id": 2211750,
                                         "name": "",
                                         "region": "US",
                                         "releases": [
                                             {
-                                                "id": "847a5f70-df3e-4fed-a1c9-8778eac42f61",
-                                                "date": "2025-12-31",
+                                                "id": "1e3c3cbc-eb38-49fc-927e-4f4f9cfba6d7",
+                                                "date": "2008-04-29",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 5711233,
-                                                        "name": "PlayStation 5",
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
                                                 "__typename": "Release"
                                             },
                                             {
-                                                "id": "e3f58faf-31c5-4d14-b287-66d9febe0c38",
-                                                "date": "2025-12-31",
+                                                "id": "6cf062c4-bc26-45b2-a956-7710cf132a4e",
+                                                "date": "2008-04-29",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 5711232,
-                                                        "name": "Xbox Series X|S",
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "6e2aec98-0978-4d4b-806d-30e759de57d5",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "e3fb2498-bf72-4d9d-94d0-216dc6954f44",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "ef202e05-e1fd-4b4e-8810-9240c69235bc",
+                                                "date": "2008-12-02",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -370,29 +1634,65 @@
                                         "__typename": "ObjectRegion"
                                     },
                                     {
-                                        "id": 2229135,
+                                        "id": 2211751,
                                         "name": "",
                                         "region": "AU",
                                         "releases": [
                                             {
-                                                "id": "70b3243e-0339-4bc0-a779-5da149254ae6",
-                                                "date": "2025-12-31",
+                                                "id": "13d80ced-6c2d-4088-bc43-25f3faa02c35",
+                                                "date": "2008-04-29",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 5711233,
-                                                        "name": "PlayStation 5",
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
                                                 "__typename": "Release"
                                             },
                                             {
-                                                "id": "9aed4888-5d87-49b7-9c9b-dd41422b2492",
-                                                "date": "2025-12-31",
+                                                "id": "29e98907-d2c1-45f7-ab0f-beab72aed064",
+                                                "date": "2008-04-29",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 5711232,
-                                                        "name": "Xbox Series X|S",
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "83ff73f7-2e2d-480f-8dd6-3bbfbac62859",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "dcae7793-3638-4cc8-913f-39757a3a0860",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "1472f736-0952-44fe-8ede-49630b1c7448",
+                                                "date": "2008-12-03",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -402,29 +1702,65 @@
                                         "__typename": "ObjectRegion"
                                     },
                                     {
-                                        "id": 2229136,
+                                        "id": 2211752,
                                         "name": "",
                                         "region": "UK",
                                         "releases": [
                                             {
-                                                "id": "33f65716-4704-49f6-8491-b6fc8652a93a",
-                                                "date": "2025-12-31",
+                                                "id": "06f54851-d1ab-4354-b904-eac21defbdf1",
+                                                "date": "2008-04-29",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 5711232,
-                                                        "name": "Xbox Series X|S",
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
                                                 "__typename": "Release"
                                             },
                                             {
-                                                "id": "b8809cbb-a981-4525-8f61-a4b2dac9e802",
-                                                "date": "2025-12-31",
+                                                "id": "42c14f14-fef8-40da-9003-41477af15abb",
+                                                "date": "2008-04-29",
                                                 "platformAttributes": [
                                                     {
-                                                        "id": 5711233,
-                                                        "name": "PlayStation 5",
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b4839f2d-8c35-4d82-9b37-6ccb7c4b4bc7",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473468,
+                                                        "name": "Xbox 360",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "c33fca4e-93dc-45d5-ab6b-ae7d50d14bd5",
+                                                "date": "2008-04-29",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473471,
+                                                        "name": "PlayStation 3",
+                                                        "__typename": "Attribute"
+                                                    }
+                                                ],
+                                                "__typename": "Release"
+                                            },
+                                            {
+                                                "id": "b8ab0fcd-fef2-4468-9cbe-b0f30b30f8da",
+                                                "date": "2008-12-03",
+                                                "platformAttributes": [
+                                                    {
+                                                        "id": 4473466,
+                                                        "name": "PC",
                                                         "__typename": "Attribute"
                                                     }
                                                 ],
@@ -444,11 +1780,11 @@
                             },
                             "abTests": [
                                 {
-                                    "id": 53955,
+                                    "id": 53975,
                                     "represents": "promoTitle",
                                     "values": [
-                                        "GTA 6 at $100 Would Be 'A Bridge Too Far' � Even for Grand Theft Auto",
-                                        "Don't Worry, Rockstar Probably Won't Sell GTA 6 for $100, Analysts Say"
+                                        "Defiant Modders Release "GTA Vice City Nextgen Edition" Despite Take-Two Takedown",
+                                        "Take-Two Hauled "GTA Vice City Nextgen Edition" Mod Videos Offline, but Its Creators Have Released It Anyway"
                                     ],
                                     "winnerIndex": 0,
                                     "__typename": "ABTest"
@@ -461,519 +1797,6 @@
                                 "__typename": "ContentCategory"
                             },
                             "brand": null,
-                            "sequenceNumber": null
-                        },
-                        "__typename": "ModernArticle"
-                    },
-                    {
-                        "content": {
-                            "id": "9d92a3f4-97e5-4301-a12b-5adad2eec5b1",
-                            "type": "Article",
-                            "title": "Rivals Update 9 Introduces the Gunblade and Bridge Map as Nosniy Prepares to Add Ranked Mode",
-                            "subtitle": "Roblox fans almost have their hands on a long-awaited feature.",
-                            "promoteAt": null,
-                            "publishDate": "2025-01-24T18:00:00.000Z",
-                            "slug": "rivals-update-9-introduces-the-gunblade-and-bridge-map-as-nosniy-prepares-to-add-ranked-mode",
-                            "feedTitle": "Rivals Update 9 Introduces the Gunblade and Bridge Map as Nosniy Prepares to Add Ranked Mode",
-                            "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/22/roblox-rivals-update-9-1737584712212.png",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "/articles/rivals-update-9-introduces-the-gunblade-and-bridge-map-as-nosniy-prepares-to-add-ranked-mode",
-                            "__typename": "ModernContent",
-                            "contributors": [
-                                {
-                                    "id": "e989121d-b4b0-11ea-b2e3-0e7c1d759882",
-                                    "name": "Michael Cripe",
-                                    "nickname": "MikeCripe",
-                                    "__typename": "Contributor"
-                                }
-                            ],
-                            "primaryObject": {
-                                "id": "bd8ae60d-7ee3-4d64-84e8-6cd92a482034",
-                                "url": "/games/rivals-roblox",
-                                "slug": "rivals-roblox",
-                                "type": "Game",
-                                "metadata": {
-                                    "names": {
-                                        "name": "RIVALS [Roblox]",
-                                        "alt": [],
-                                        "short": "RIVALS",
-                                        "__typename": "Names"
-                                    },
-                                    "__typename": "Metadata"
-                                },
-                                "objectRegions": [
-                                    {
-                                        "id": 2270343,
-                                        "name": null,
-                                        "region": "US",
-                                        "releases": [
-                                            {
-                                                "id": "3ce58c89-68d4-4eb8-8156-6821a36a160b",
-                                                "date": "2024-05-26",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2270344,
-                                        "name": null,
-                                        "region": "AU",
-                                        "releases": [
-                                            {
-                                                "id": "fbe72406-5390-4847-930a-cdbefd2f4e17",
-                                                "date": "2024-05-26",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2270345,
-                                        "name": null,
-                                        "region": "UK",
-                                        "releases": [
-                                            {
-                                                "id": "1c142a0f-a2b0-482a-a14b-fd9e9111b61e",
-                                                "date": "2024-05-26",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2270346,
-                                        "name": null,
-                                        "region": "JP",
-                                        "releases": [
-                                            {
-                                                "id": "b1144d1a-aee0-4421-85fc-b6e432fb1309",
-                                                "date": "2024-05-26",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 10013203,
-                                                        "name": "Roblox",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    }
-                                ],
-                                "franchises": [
-                                    {
-                                        "name": "Roblox",
-                                        "__typename": "Attribute"
-                                    }
-                                ],
-                                "__typename": "Object"
-                            },
-                            "abTests": [
-                                {
-                                    "id": 53894,
-                                    "represents": "promoTitle",
-                                    "values": [
-                                        "Rivals Update 9 Introduces the Gunblade and Bridge Map as Nosniy Prepares to Add Ranked Mode",
-                                        "Rivals Gets New Weapon and Map as Ranked Mode Looms"
-                                    ],
-                                    "winnerIndex": null,
-                                    "__typename": "ABTest"
-                                }
-                            ],
-                            "sponsorships": null,
-                            "contentCategory": {
-                                "id": 1,
-                                "name": "News",
-                                "__typename": "ContentCategory"
-                            },
-                            "brand": {
-                                "id": 402,
-                                "slug": "codes24",
-                                "name": "Codes24",
-                                "logoLight": null,
-                                "logoDark": null,
-                                "__typename": "Brand"
-                            },
-                            "sequenceNumber": null
-                        },
-                        "__typename": "ModernArticle"
-                    },
-                    {
-                        "content": {
-                            "id": "581f61d2-0b7f-443e-bae4-057eeaa08d26",
-                            "type": "Article",
-                            "title": "Ninja Gaiden 2 Black Gets a Physical Release on PS5 Only",
-                            "subtitle": "Cut-price deal.",
-                            "promoteAt": null,
-                            "publishDate": "2025-01-24T16:55:05.123Z",
-                            "slug": "ninja-gaiden-2-black-gets-a-physical-release-on-ps5-only",
-                            "feedTitle": "Ninja Gaiden 2 Black Gets a Physical Release on PS5 Only",
-                            "feedImage": {
-                                "url": "https://assets-prd.ignimgs.com/2025/01/24/ngb2-1737737470497.jpg",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "/articles/ninja-gaiden-2-black-gets-a-physical-release-on-ps5-only",
-                            "__typename": "ModernContent",
-                            "contributors": [
-                                {
-                                    "id": "ad651d6b-b2ae-4500-bed9-cb7b5247c0b6",
-                                    "name": "Wesley Yin-Poole",
-                                    "nickname": "wyp",
-                                    "__typename": "Contributor"
-                                }
-                            ],
-                            "primaryObject": {
-                                "id": "723c8a4d-ad36-42c7-a0fd-080494b1d7b1",
-                                "url": "/games/ninja-gaiden-2-black",
-                                "slug": "ninja-gaiden-2-black",
-                                "type": "Game",
-                                "metadata": {
-                                    "names": {
-                                        "name": "Ninja Gaiden 2 Black",
-                                        "alt": [],
-                                        "short": null,
-                                        "__typename": "Names"
-                                    },
-                                    "__typename": "Metadata"
-                                },
-                                "objectRegions": [
-                                    {
-                                        "id": 2280733,
-                                        "name": null,
-                                        "region": "US",
-                                        "releases": [
-                                            {
-                                                "id": "01ea162c-c2c3-461b-b2f2-f3a99b38e585",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5711232,
-                                                        "name": "Xbox Series X|S",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            },
-                                            {
-                                                "id": "767c687d-9952-4345-aa66-03e19ce67b42",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5711233,
-                                                        "name": "PlayStation 5",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            },
-                                            {
-                                                "id": "e304865a-e8c9-4e05-bce9-a96530dc3dc2",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 4473466,
-                                                        "name": "PC",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2280734,
-                                        "name": null,
-                                        "region": "AU",
-                                        "releases": [
-                                            {
-                                                "id": "7547707b-3fe3-498f-8863-706cd6ae24a4",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5711233,
-                                                        "name": "PlayStation 5",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            },
-                                            {
-                                                "id": "a5d20ab6-5019-4669-a8e8-44cb47014e30",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 4473466,
-                                                        "name": "PC",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            },
-                                            {
-                                                "id": "e7a7cbde-b8b1-4a0a-922e-7056e1c014de",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5711232,
-                                                        "name": "Xbox Series X|S",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 2280735,
-                                        "name": null,
-                                        "region": "UK",
-                                        "releases": [
-                                            {
-                                                "id": "4d6c4993-bb3d-4ead-bdb3-5ee549dff00a",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5711233,
-                                                        "name": "PlayStation 5",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            },
-                                            {
-                                                "id": "b25cacdb-1bb0-458c-8094-885c02409e04",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 4473466,
-                                                        "name": "PC",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            },
-                                            {
-                                                "id": "b93331cd-ecae-4a1f-85ff-e6c5ccc41aaa",
-                                                "date": "2025-01-23",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5711232,
-                                                        "name": "Xbox Series X|S",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    }
-                                ],
-                                "franchises": [
-                                    {
-                                        "name": "Ninja Gaiden",
-                                        "__typename": "Attribute"
-                                    }
-                                ],
-                                "__typename": "Object"
-                            },
-                            "abTests": [
-                                {
-                                    "id": 53949,
-                                    "represents": "promoTitle",
-                                    "values": [
-                                        "Ninja Gaiden 2 Black Gets a Physical Release on PS5 Only",
-                                        "Ninja Gaiden 2 Black PS5 Physical Release Confirmed, No Word on Xbox"
-                                    ],
-                                    "winnerIndex": 0,
-                                    "__typename": "ABTest"
-                                }
-                            ],
-                            "sponsorships": null,
-                            "contentCategory": {
-                                "id": 1,
-                                "name": "News",
-                                "__typename": "ContentCategory"
-                            },
-                            "brand": null,
-                            "sequenceNumber": null
-                        },
-                        "__typename": "ModernArticle"
-                    },
-                    {
-                        "content": {
-                            "id": "2a0fa23d-0aed-464a-9c33-43790669c404",
-                            "type": "Article",
-                            "title": "Pok�mon TCG: Scarlet and Violet - Prismatic Evolutions Review: The Ultimate Crown Jewel of This Era",
-                            "subtitle": "Stock has been hard to come by, but it's worth investing in.",
-                            "promoteAt": null,
-                            "publishDate": "2025-01-24T16: 20: 27.513Z",
-                            "slug": "pokemon-tcg-prismatic-evolutions-review",
-                            "feedTitle": "Is Pok�mon TCG: Prismatic Evolutions Worth The Hype?",
-                            "feedImage": {
-                                "url": "https: //assets-prd.ignimgs.com/2025/01/24/is-prismatic-evolutions-worth-it-ign-review-2025-1737712587770.png",
-                                "__typename": "Image"
-                            },
-                            "v3Id": null,
-                            "url": "/articles/pokemon-tcg-prismatic-evolutions-review",
-                            "__typename": "ModernContent",
-                            "contributors": [
-                                {
-                                    "id": "97d9e91f-892f-48dd-ba07-99bd12bd0805",
-                                    "name": "Christian Wait",
-                                    "nickname": "ChristianWait",
-                                    "__typename": "Contributor"
-                                }
-                            ],
-                            "primaryObject": {
-                                "id": "5fa8c5a3-18df-4bbe-9737-7d71ceb543de",
-                                "url": "/games/pokemon-trading-card-game-tabletop",
-                                "slug": "pokemon-trading-card-game-tabletop",
-                                "type": "Game",
-                                "metadata": {
-                                    "names": {
-                                        "name": "Pokemon Trading Card Game",
-                                        "alt": [
-                                            "Pokemon Trading Card Game [Tabletop]"
-                                        ],
-                                        "short": "Pokemon TCG",
-                                        "__typename": "Names"
-                                    },
-                                    "__typename": "Metadata"
-                                },
-                                "objectRegions": [
-                                    {
-                                        "id": 1660217,
-                                        "name": "Pokemon Trading Card Game",
-                                        "region": "US",
-                                        "releases": [
-                                            {
-                                                "id": "48e08e52-432a-483d-b55f-905233533473",
-                                                "date": "1999-12-31",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5713891,
-                                                        "name": "Tabletop",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 1660218,
-                                        "name": "Pokemon Trading Card Game",
-                                        "region": "AU",
-                                        "releases": [
-                                            {
-                                                "id": "516a1517-cfcc-4283-b96f-3f8f83f4e0ae",
-                                                "date": "1999-12-31",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5713891,
-                                                        "name": "Tabletop",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 1660219,
-                                        "name": "Pokemon Trading Card Game",
-                                        "region": "JP",
-                                        "releases": [
-                                            {
-                                                "id": "f2f3c960-e58d-4aff-a74a-7b34166ef203",
-                                                "date": "1996-12-31",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5713891,
-                                                        "name": "Tabletop",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    },
-                                    {
-                                        "id": 1660220,
-                                        "name": "Pokemon Trading Card Game",
-                                        "region": "UK",
-                                        "releases": [
-                                            {
-                                                "id": "f0ac437e-cb68-4625-879e-b906e994936c",
-                                                "date": "1999-12-31",
-                                                "platformAttributes": [
-                                                    {
-                                                        "id": 5713891,
-                                                        "name": "Tabletop",
-                                                        "__typename": "Attribute"
-                                                    }
-                                                ],
-                                                "__typename": "Release"
-                                            }
-                                        ],
-                                        "__typename": "ObjectRegion"
-                                    }
-                                ],
-                                "franchises": [
-                                    {
-                                        "name": "Pokemon",
-                                        "__typename": "Attribute"
-                                    }
-                                ],
-                                "__typename": "Object"
-                            },
-                            "abTests": [],
-                            "sponsorships": null,
-                            "contentCategory": {
-                                "id": 16,
-                                "name": "Shopping",
-                                "__typename": "ContentCategory"
-                            },
-                            "brand": {
-                                "id": 324,
-                                "slug": "us-commerce",
-                                "name": "US Commerce",
-                                "logoLight": null,
-                                "logoDark": null,
-                                "__typename": "Brand"
-                            },
                             "sequenceNumber": null
                         },
                         "__typename": "ModernArticle"

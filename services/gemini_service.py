@@ -22,8 +22,7 @@ class GeminiService:
                 response = self.model.generate_content(prompt)
             else:
                 response = self.model.generate_content(prompt+str(inputer))           
-            print(response.text)
-            print(response)
+            
             if content_type == ContentType.GAME_DEV_THREAD:
                 return self._create_thread(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_POLL:
@@ -50,7 +49,6 @@ class GeminiService:
         """Generate tweet content using Gemini AI"""
         try:
             prompt = get_prompt(content_type)
-            print(message)
             history = [
                 {
                     "role":"user",

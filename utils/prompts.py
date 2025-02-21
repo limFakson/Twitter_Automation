@@ -118,6 +118,7 @@ PROMPTS: Dict[ContentType, str] = {
     - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
     - Do not include placeholder text like "check out at: [Link]."
     - Ensure the information is accurate, up-to-date, and engaging.
+    - All tweet content must not be more than 270 characters that is with the link and hashtags.
     - Follow this template:
       ```
       🚨 Hot Job Alert! 🚨
@@ -146,15 +147,16 @@ PROMPTS: Dict[ContentType, str] = {
     - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
     - Do not include placeholder text like "check out at: [Link]."
     - Ensure the information is accurate, up-to-date, and engaging.
-    - Follow this template:
+    - All tweet text should be generated from the input provided and tweet must not be more than 270 characters that is including the link and hashtags.
+    - Follow this template and can be shuffled:
       ```
-      #LatestNews in the #GamingNews 👾
+      [Template: #LatestNews in the #GamingNews]
 
-      💥 [Headline or Hook] 💥
+      [Template: 💥 [Headline or Hook] 💥]
 
-      [Short description or call-to-action] 🎮
+      [Template: Short description or call-to-action] 🎮
 
-      ➡️ [Direct Link]
+      ➡️ [Optional: Direct Link]
       
       Hashtags #𝕹𝖎𝖌𝖍𝖙
       ```
@@ -216,4 +218,4 @@ PROMPTS: Dict[ContentType, str] = {
 
 def get_prompt(content_type: ContentType) -> str:
     """Get the prompt template for a given content type"""
-    return PROMPTS.get(content_type, "Generate a tweet about game development.")
+    return PROMPTS.get(content_type)

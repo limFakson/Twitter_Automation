@@ -24,6 +24,7 @@ async def scraper(url):
         try:
             # Extract the <meta> tag with name="description"
             meta_description = soup.find("meta", attrs={"name": "description"})
+            
             description = (
                 meta_description["content"] if meta_description else "No description found"
             )

@@ -13,7 +13,7 @@ REQUIRED_VARS = [
     "TELEGRAM_CHAT_ID",
     "GEMINI_API_KEY",
     # "CHECKER_BOT_TOKEN",
-    "CHATGPT_4_API_KEY"
+    # "CHATGPT_4_API_KEY"
 ]
 
 def load_environment():

@@ -65,18 +65,3 @@ class MemeTemplate:
     text_positions: List[Tuple[int, int]]
     max_text_length: int = 100
     
-    @classmethod
-    def get_templates(cls) -> List['MemeTemplate']:
-        """Return list of available meme templates"""
-        return [
-            cls(
-                name="drake",
-                filename="drake.png",
-                text_positions=[(350, 100), (350, 300)]
-            ),
-            cls(
-                name="distracted_boyfriend",
-                filename="distracted_boyfriend.png",
-                text_positions=[(150, 100), (400, 100), (650, 100)]
-            ),   # Add more templates as needed
-        ]

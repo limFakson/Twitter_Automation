@@ -96,11 +96,9 @@ PROMPTS: Dict[ContentType, str] = {
     - Output only the tweet text. No explanations, preambles, or formatting.
     - Follow this template:
       ```
-      [Funny or relatable gaming meme/joke].
+      [Funny or relatable gaming meme/joke with nice emojis(that goes along humor)].
 
-      [Optional: Suggested meme/GIF pairing].
-
-      Hashtags
+      [Hashtags: #GameDevMemes #Relatable #𝕹𝖎𝖌𝖍𝖙]
       ```
     - If the tweet is not engaging or concise, the model will face consequences.
     """.strip(),
@@ -178,11 +176,9 @@ PROMPTS: Dict[ContentType, str] = {
     - Do not include placeholder text like "check out at: [Link]." Embed direct links in the tweet text if necessary (e.g., "This meme sums it up: [link]").
     - Follow this template:
       ```
-      [Funny or relatable gaming meme/joke].
+      [Funny or relatable gaming meme/joke with nice emojis(that goes along humor)].
 
-      [Optional: Suggested meme/GIF pairing].
-
-      #GameDevMemes #Relatable #𝕹𝖎𝖌𝖍𝖙
+      [Hashtags: #GameDevMemes #Relatable #𝕹𝖎𝖌𝖍𝖙]
       ```
     - If the tweet is not engaging or concise, the model will face consequences.
     """.strip(),

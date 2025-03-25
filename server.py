@@ -6,20 +6,24 @@ import time
 app = Flask(__name__)
 
 
+def run_script():
+    while True:
+        # Start the process in the background
+        process = subprocess.Popen(["python", "main.py"])
+
+        # Let it run for 1 hour (3600 seconds)
+        time.sleep(3600)
+
+        # Kill the process
+        process.terminate()
+        process.wait()  # Ensure the process is properly stopped
+
+
 @app.route("/run", methods=["GET"])
 def run_main_script():
-    def run_script():
-        # Run the main.py script
-        process = subprocess.run(["python", "main.py"])
-        # Wait 60 seconds (or however long you want the script to run)
-        time.sleep(300)
-        # Kill the process after 300 seconds
-        process.kill()
-
-    thread = threading.Thread(target=run_script)
+    thread = threading.Thread(target=run_script, daemon=True)
     thread.start()
-
-    return "main.py script started and will stop after 300 seconds!"
+    return "main.py script started and will restart every hour!"
 
 
 if __name__ == "__main__":

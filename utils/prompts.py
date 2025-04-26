@@ -110,28 +110,28 @@ PROMPTS: Dict[ContentType, str] = {
     #Xbox #GamingCommunity
     ```    
     """.strip(),
-    ContentType.GAME_DEV_POLL: """
-    Create an engaging poll about game development. 
-    Example: "What's your go-to game engine? 💻" or "Which is harder: AI or optimization? 🤔". 
-    Keep it under 280 characters.  
-    Only output the poll text—no extra formatting or explanations.
+    # ContentType.GAME_DEV_POLL: """
+    # Create an engaging poll about game development. 
+    # Example: "What's your go-to game engine? 💻" or "Which is harder: AI or optimization? 🤔". 
+    # Keep it under 280 characters.  
+    # Only output the poll text—no extra formatting or explanations.
 
-    **Tweet Guidelines**:
-    - Add a playful or humorous tone to increase engagement.
-    - Include relevant hashtags from X (formerly Twitter).
-    - Output only the poll text, without intros, preambles, or instructions.
-    - Follow this template:
-      ```
-      🎮 Poll Time! 🎮
+    # **Tweet Guidelines**:
+    # - Add a playful or humorous tone to increase engagement.
+    # - Include relevant hashtags from X (formerly Twitter).
+    # - Output only the poll text, without intros, preambles, or instructions.
+    # - Follow this template:
+    #   ```
+    #   🎮 Poll Time! 🎮
 
-      [Question or statement].
+    #   [Question or statement].
 
-      Vote now and share your thoughts! 👇
+    #   Vote now and share your thoughts! 👇
 
-      #GameDevPoll #GamingCommunity HashTags
-      ```
-    - If the poll is not engaging or concise, the model will face consequences.
-    """.strip(),
+    #   #GameDevPoll #GamingCommunity HashTags
+    #   ```
+    # - If the poll is not engaging or concise, the model will face consequences.
+    # """.strip(),
     ContentType.GAME_DEV_MEME: """
     Write a funny, relatable tweet about game development struggles or joys. 
     Suggest a meme or GIF pairing if necessary. 

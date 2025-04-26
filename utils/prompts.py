@@ -2,7 +2,7 @@ from typing import Dict
 from .types import ContentType
 
 PROMPTS: Dict[ContentType, str] = {
-     ContentType.UNITY_TIPS: """
+    ContentType.UNITY_TIPS: """
     Write a concise Unity game development tip. 
     Start with phrases like "Did you know? 💡" or "Pro Tip:". 
     Focus on practical advice to improve workflow or game performance. 
@@ -22,7 +22,6 @@ PROMPTS: Dict[ContentType, str] = {
       ```
     - If the tweet is not direct and concise, the model will face consequences.
     """.strip(),
-
     ContentType.GAME_DEV_THREAD: """
     Write a 3-4 tweet thread about a game dev concept or trend. 
     Topics: optimization, Unity best practices, or C# design patterns.
@@ -36,31 +35,81 @@ PROMPTS: Dict[ContentType, str] = {
     - If applicable, ask questions to encourage interaction (e.g., "What’s your take on this? 🧐").
     - If the thread includes unnecessary text or fails to engage, the model will face consequences.
     """.strip(),
+    ContentType.GAMING_THREAD: """
+    🎮 Write a viral gaming thread for X (formerly Twitter) based on gaming culture, news, fun facts, or hot takes.
+    The thread must be engaging, opinionated, and easy to read. 
+    Each tweet must stay under 270 characters.
 
+    **Guidelines**:
+    - Choose a strong topic: trending games, forgotten classics, overrated games, major updates, wild facts, or controversial opinions.
+    - Start with a HOOK (bold, emotional, or shocking first tweet).
+    - Write 3–6 tweets maximum per thread.
+    - Each tweet must flow naturally to the next — no boring "part 1/2/3" formatting.
+    - End with a question to spark comments ("Which side are you on? 🧠🔥").
+    - Use gaming emojis 🎮🔥💥🕹️ for energy.
+    - Use 1–2 trending hashtags related to the topic at the end of the first or last tweet (e.g., #GamingNews #Xbox #PS5).
+    - NO long explanations. Be direct, punchy, and emotional.
+    - NO placeholder text like [Link] or [Image] — only real text.
+
+    **Example Templates**:
+    ```
+    First tweet (hook):
+    "Gaming isn't the same anymore... and nobody wants to admit why. 🧠💥 Let's dive in: 🧵👇"
+
+    Middle tweets (supporting points):
+
+    "[Point 1]"
+
+    "[Point 2]"
+
+    "[Point 3]"
+
+    Last tweet (call-to-action): "Do you agree or am I crazy? 🧠🔥 Sound off below! 🎮 #GamingCommunity"
+    ```
+    or
+    ```
+    First tweet (hook):
+    "Hot take: [Popular Game] was MID and nostalgia is lying to you. 👀🎮 Let's break it down: 🧵"
+
+    Middle tweets:
+
+    "[Point 1]"
+
+    "[Point 2]"
+
+    "[Point 3]"
+
+    Last tweet: "Did [Game] deserve the hype or nah? 🧠👇 #GamingNews #𝕹𝖎𝖌𝖍𝖙"
+    ```
+    """,
     ContentType.GAME_NEWS: """
-    Craft an engaging tweet about recent gaming trends, tools, or news. 
-    Focus on Unity, indie games, or popular studios. 
-    Keep it under 280 characters.  
-    Only output the tweet—no explanations, preambles, or formatting instructions.
+    🔥 Write a spicy, emotional, or punchy tweet about a trending gaming news topic.
+    Focus on **reactions** more than just repeating facts.  
+    Keep it under 270 characters. Only output the tweet text.
 
-    **Tweet Guidelines**:
-    - Use a hook like "Big news! 🚨" or "Gamers, take note! 🎮".
-    - Include relevant hashtags from X (formerly Twitter).
-    - Output only the tweet text, without any other context or explanation.
-    - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
-    - Do not include placeholder text like "check out at: [Link]."
-    - Ensure the information is accurate, up-to-date, and engaging.
-    - Follow this template:
+    **Guidelines**:
+    - Start with an EMOTION or OPINION, not a bland headline.
+    - Examples: "This is ridiculous. 😂", "Finally! About time. 👏", "Nobody asked for this... but okay. 🤡"
+    - Use 1-2 gaming hashtags like #GamingNews #Xbox #PS5 depending on the topic.
+    - You are allowed to lightly criticize or hype — human tone over robotic.
+    - Do NOT just summarize. Create **a vibe**: hype, love, hate, meme.
+    - End with an emoji if possible to boost engagement.
+
+    **Template examples**:
       ```
-      💠 Gaming News 💠
+      🔥 [Angry/Funny/Happy Reaction] at [News/Event].
 
-      [Headline or Hook] by [@CompanyHandle / @StudioHandle] [adds/releases/announces] [key detail].
-
-      Read the full article + [Trailer/Screenshots/Details(generated image)] here: [Direct Link]
+      Thoughts? 🎮
+      #GamingNews #𝕹𝖎𝖌𝖍𝖙
       ```
-    - If the tweet is not direct and concise, the model will face consequences. Hashtags
+    or
+    ```
+    💀 [Funny/Hot take on game update].
+
+    Gamers are NOT ready for this. 😭
+    #Xbox #GamingCommunity
+    ```    
     """.strip(),
-
     ContentType.GAME_DEV_POLL: """
     Create an engaging poll about game development. 
     Example: "What's your go-to game engine? 💻" or "Which is harder: AI or optimization? 🤔". 
@@ -83,7 +132,6 @@ PROMPTS: Dict[ContentType, str] = {
       ```
     - If the poll is not engaging or concise, the model will face consequences.
     """.strip(),
-
     ContentType.GAME_DEV_MEME: """
     Write a funny, relatable tweet about game development struggles or joys. 
     Suggest a meme or GIF pairing if necessary. 
@@ -102,7 +150,6 @@ PROMPTS: Dict[ContentType, str] = {
       ```
     - If the tweet is not engaging or concise, the model will face consequences.
     """.strip(),
-
     ContentType.GAME_DEV_JOBS: """
     Write a tweet highlighting a recent game dev job posting. 
     Mention the role, company, and link to apply. 
@@ -131,36 +178,44 @@ PROMPTS: Dict[ContentType, str] = {
       ```
     - If the tweet is not direct and concise, the model will face consequences.
     """.strip(),
-
     ContentType.GAME_NEWS_SOURCE: """
-    Write an engaging tweet based on the given news source input. 
-    Focus on gaming deals, updates, or trends. Keep the tweet under 280 characters.  
-    Only output the tweet—do not include setup, explanation, or additional formatting.
+    🧨 Write a viral-ready, emotional reaction tweet based on the provided gaming news source input (e.g., IGN, updates, bug fixes, DLCs).
+    The tweet must create a vibe: hype, hate, meme, or relatable struggle.  
+    Stay under 270 characters total including hashtags.
 
-    **Tweet Guidelines**:
-    - For deals: Highlight the offer and include the link provided.
-    - Use hooks like "Massive sale alert! 🛒" or "Big update! 🔥".
-    - Include trending hashtags sparingly but effectively.
-    - Output only the tweet text—no extra context, intros, or commentary.
-    - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
-    - Do not include placeholder text like "check out at: [Link]."
-    - Ensure the information is accurate, up-to-date, and engaging.
-    - All tweet text should be generated from the input provided and tweet must not be more than 270 characters that is including the link and hashtags.
-    - Follow this template and can be shuffled:
+    **Guidelines**:
+    - Read the provided news content and react based on its vibe:
+      - 🔥 If it's a **cool release**: be hyped ("This looks INSANE. Take my money. 🎮")
+      - 💀 If it's a **bug or issue fix**: lightly mock ("Another patch, another chaos. 😂")
+      - 🤡 If it's a **weird update**: roast or meme ("Nobody asked... but here we go. 🤡")
+      - 👏 If it's a **W / good move**: celebrate ("Finally, a win for gamers. 👏")
+    - Pick a side (no neutral boring tones).
+    - Start with an EMOTION or MEME phrase, not a headline.
+    - Always embed **1-2 strong hashtags** like #GamingNews #Xbox #𝕹𝖎𝖌𝖍𝖙.
+    - Shorter tweets (below 250 characters) are ideal for engagement.
+    - No explanations, no intros, no placeholders, no filler — just the tweet.
+
+    **Template examples**:
       ```
-      [Template: #LatestNews in the #GamingNews]
+      🔥 [Excited Reaction / Short Joke] at [Game or Studio News].
 
-      [Template: 💥 [Headline or Hook] 💥]
-
-      [Template: Short description or call-to-action] 🎮
-
-      ➡️ [Optional: Direct Link]
-      
-      Hashtags #𝕹𝖎𝖌𝖍𝖙
+      Who's trying it? 🎮
+      Hashtags #GamingNews #𝕹𝖎𝖌𝖍𝖙
       ```
-    - If the tweet is not direct and concise, the model will face consequences.
+    or
+    ```
+    Bro how does [Game] STILL have bugs after 10 patches. 😂
+    Gaming never changes. 🎮
+    #Relatable #GamingCommunity
+    ```
+    or
+    ```
+    W update by [Studio/Game]! 👏
+
+    Finally some good news for gamers. 🔥
+    #GamingNews #𝕹𝖎𝖌𝖍𝖙
+    ```
     """.strip(),
-    
     ContentType.GAMING_MEMES_JOKES: """
     Write a funny, relatable tweet about gaming culture, memes, or jokes. 
     The meme or joke should resonate with gamers and be relevant to current trends. 
@@ -182,33 +237,30 @@ PROMPTS: Dict[ContentType, str] = {
       ```
     - If the tweet is not engaging or concise, the model will face consequences.
     """.strip(),
-
     ContentType.TRENDING_GAME_UPDATES: """
-    Write an engaging tweet about trending updates in the gaming world. 
-    Topics: new game releases, mods, stock prices of gaming companies, release dates, or major updates. 
-    Keep the tweet under 280 characters.  
-    Only output the tweet text—no explanations, preambles, or formatting instructions.
+    🚨 Write a *fast* emotional take on a trending game update, release, bug, patch, or news.  
+    Focus on a punchy reaction (positive or negative). Keep it under 270 characters.
 
-    **Tweet Guidelines**:
-    - Conduct a broad search for real information from websites, databases, or gaming news sources.
-    - Use hooks like "Breaking news! 🚨" or "Gamers, this is huge! 🎮".
-    - Include relevant hashtags from X (formerly Twitter) sparingly but effectively.
-    - Output only the tweet text, without any other context or explanation.
-    - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
-    - Do not include placeholder text like "check out at: [Link]."
-    - Ensure the information is accurate, up-to-date, and engaging.
-    - Follow this template:
+    **Guidelines**:
+    - Start with a reaction: "WHAT is this patch??", "Huge W for gamers. 👏", "Bro... what?? 😂"
+    - Always pick a side (hype or hate).
+    - Use 1-2 fitting hashtags like #GamingNews #TrendingGames.
+    - Encourage replies if possible ("Are you trying this? 👇", "Thoughts? 🎮").
+
+    **Example Templates**:
       ```
-      #LatestNews in the #GamingNews 👾
+    🚨 [Update/Release] just dropped!
 
-      💥 [Headline or Hook] 💥
-
-      [Short description or call-to-action] 🎮
-
-      ➡️ [Direct Link]
-      Hashtags #𝕹𝖎𝖌𝖍𝖙
+    [Quick emotional reaction / joke] 😂
+    #TrendingGames #𝕹𝖎𝖌𝖍𝖙
       ```
-    - If the tweet is not direct and concise, the model will face consequences.
+    or
+    ```
+    Bro this patch note is WILD. 🤣
+
+    [Insert most ridiculous/funny change].
+    #GamingCommunity #𝕹𝖎𝖌𝖍𝖙
+    ```
     """.strip(),
 }
 

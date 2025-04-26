@@ -6,14 +6,15 @@ class ContentType(Enum):
     UNITY_TIPS = "unity_tips"
     GAME_DEV_THREAD = "game_dev_thread"
     GAME_NEWS = "game_news"
-    GAME_DEV_POLL = "game_dev_poll"
+    # GAME_DEV_POLL = "game_dev_poll"
     GAME_DEV_MEME = "game_dev_meme"
-    GAME_DEV_JOBS = "game_dev_jobs"
+    # GAME_DEV_JOBS = "game_dev_jobs"
     # UNITY_TUTORIAL = "unity_tutorial"
     # GAME_DESIGN = "game_design"
     # INDIE_DEV = "indie_dev"
     # GAME_MARKETING = "game_marketing"
     GAME_NEWS_SOURCE = "game_news_source",
+    GAMING_THREAD = "gaming_thread",
     TRENDING_GAME_UPDATES = "trending_game_updates",
     GAMING_MEMES_JOKES = "gaming_memes_jokes",
 
@@ -57,11 +58,10 @@ class Tweet:
         options = "\n".join(f"{i}. {opt.text}"
                           for i, opt in enumerate(self.poll_options, 1))
         return f"{self.content}\n\nPoll Options:\n{options}"
-    
+
 @dataclass
 class MemeTemplate:
     name: str
     filename: str
     text_positions: List[Tuple[int, int]]
     max_text_length: int = 100
-    

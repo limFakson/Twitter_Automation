@@ -23,7 +23,7 @@ class GeminiService:
             else:
                 response = self.model.generate_content(prompt+str(inputer))           
             
-            if content_type == ContentType.GAME_DEV_THREAD:
+            if content_type == ContentType.GAME_DEV_THREAD or content_type == ContentType.GAMING_THREAD:
                 return self._create_thread(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_POLL:
                 return self._create_poll(f"{response.text}")

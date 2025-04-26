@@ -25,8 +25,8 @@ class GeminiService:
             
             if content_type == ContentType.GAME_DEV_THREAD or content_type == ContentType.GAMING_THREAD:
                 return self._create_thread(f"{response.text}")
-            elif content_type == ContentType.GAME_DEV_POLL:
-                return self._create_poll(f"{response.text}")
+            # elif content_type == ContentType.GAME_DEV_POLL:
+            #     return self._create_poll(f"{response.text}")
             elif content_type == ContentType.GAME_DEV_MEME:
                 return self._create_meme(f"{response.text}")
             elif content_type == ContentType.GAME_NEWS_SOURCE:

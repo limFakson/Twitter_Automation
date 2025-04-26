@@ -150,34 +150,34 @@ PROMPTS: Dict[ContentType, str] = {
       ```
     - If the tweet is not engaging or concise, the model will face consequences.
     """.strip(),
-    ContentType.GAME_DEV_JOBS: """
-    Write a tweet highlighting a recent game dev job posting. 
-    Mention the role, company, and link to apply. 
-    Keep it under 280 characters.  
-    Only output the tweet text—no other context or explanations.
+    # ContentType.GAME_DEV_JOBS: """
+    # Write a tweet highlighting a recent game dev job posting. 
+    # Mention the role, company, and link to apply. 
+    # Keep it under 280 characters.  
+    # Only output the tweet text—no other context or explanations.
 
-    **Tweet Guidelines**:
-    - Use engaging phrases like "🚨 Hot job alert!" or "Looking for a new gig? 👾".
-    - Include relevant hashtags from X (formerly Twitter).
-    - Output only the tweet text, without any intros, preambles, or explanations.
-    - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
-    - Do not include placeholder text like "check out at: [Link]."
-    - Ensure the information is accurate, up-to-date, and engaging.
-    - All tweet content must not be more than 270 characters that is with the link and hashtags.
-    - Follow this template:
-      ```
-      🚨 Hot Job Alert! 🚨
+    # **Tweet Guidelines**:
+    # - Use engaging phrases like "🚨 Hot job alert!" or "Looking for a new gig? 👾".
+    # - Include relevant hashtags from X (formerly Twitter).
+    # - Output only the tweet text, without any intros, preambles, or explanations.
+    # - Embed direct links in the tweet text if necessary (e.g., "New game release: [link]") is a NO.
+    # - Do not include placeholder text like "check out at: [Link]."
+    # - Ensure the information is accurate, up-to-date, and engaging.
+    # - All tweet content must not be more than 270 characters that is with the link and hashtags.
+    # - Follow this template:
+    #   ```
+    #   🚨 Hot Job Alert! 🚨
 
-      [Role] at [Company] – [Key detail or perk].
+    #   [Role] at [Company] – [Key detail or perk].
 
-      Apply now and join the team! 👾
+    #   Apply now and join the team! 👾
 
-      ➡️ [Direct Link]
+    #   ➡️ [Direct Link]
       
-      Hashtags
-      ```
-    - If the tweet is not direct and concise, the model will face consequences.
-    """.strip(),
+    #   Hashtags
+    #   ```
+    # - If the tweet is not direct and concise, the model will face consequences.
+    # """.strip(),
     ContentType.GAME_NEWS_SOURCE: """
     🧨 Write a viral-ready, emotional reaction tweet based on the provided gaming news source input (e.g., IGN, updates, bug fixes, DLCs).
     The tweet must create a vibe: hype, hate, meme, or relatable struggle.  

@@ -7,7 +7,9 @@ from apscheduler.triggers.date import DateTrigger
 from apscheduler.triggers.cron import CronTrigger
 from apscheduler.schedulers.background import BackgroundScheduler
 from services.news_service import NewsService
+import pytz
 
+setup_logging()
 logger = logging.getLogger(__name__)
 scheduler = BackgroundScheduler()
 
@@ -24,7 +26,7 @@ def jobstore():
     # Run every day at 8 AM and 7 PM
     scheduler.add_job(
         news_service_job,
-        trigger=CronTrigger(hour="8,19", minute=0)
+        trigger=CronTrigger(hour="9,20", minute=0, timezone=pytz.timezone("UTC"))
     )
     scheduler.start()
     logger.info("Scheduler started with jobs.")

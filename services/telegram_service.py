@@ -26,7 +26,6 @@ class TelegramService:
         self.content_service = ContentService()
         self.news_service = NewsService()
         self.pending_tweets = {}
-        self._setup_handlers()
 
     def _setup_handlers(self):
         """Set up telegram message handlers"""
@@ -55,6 +54,7 @@ class TelegramService:
         update.message.reply_text(
             "Welcome! Choose an option:", reply_markup=reply_markup
         )
+        self._setup_handlers()
 
     def tweeter(self, update, context):
         """Start the telegram bot service"""

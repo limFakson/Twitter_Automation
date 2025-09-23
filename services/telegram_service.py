@@ -45,8 +45,8 @@ class TelegramService:
     
     def start(self, update: Update, context: CallbackContext):
         keyboard = [
-            [InlineKeyboardButton("Tweeter", callback_data="tweet")],
-            [InlineKeyboardButton("Help", callback_data="help")],
+            [InlineKeyboardButton("Tweeter", callback_data="tweeter")],
+            [InlineKeyboardButton("Help", callback_data="help_command")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text(

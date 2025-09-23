@@ -27,34 +27,31 @@ class TelegramService:
         self.news_service = NewsService()
         self.pending_tweets = {}
 
+        # setup handlers once
+        self._setup_handlers()
+
     def _setup_handlers(self):
-        """Set up telegram message handlers"""
         dp = self.updater.dispatcher
         dp.add_handler(CallbackQueryHandler(self._handle_button_click))
-        dp.add_handler(
-            MessageHandler(Filters.text & ~Filters.command, self._handle_edited_tweet)
-        )
+        dp.add_handler(MessageHandler(Filters.text & ~Filters.command, self._handle_edited_tweet))
         dp.add_handler(CommandHandler("start", self.start))
-        dp.add_handler(CommandHandler("news", self.news))
         dp.add_handler(CommandHandler("tweet", self.tweeter))
         dp.add_handler(CommandHandler("help", self.help_command))
 
+    def start_bot(self):
+        """Starts polling for Telegram updates"""
         self.updater.start_polling()
         self.updater.idle()
     
-    
-
-    def start(self):
+    def start(self, update: Update, context: CallbackContext):
         keyboard = [
-            # [InlineKeyboardButton("News", callback_data="news")],
             [InlineKeyboardButton("Tweeter", callback_data="tweet")],
             [InlineKeyboardButton("Help", callback_data="help")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        self.update.message.reply_text(
+        update.message.reply_text(
             "Welcome! Choose an option:", reply_markup=reply_markup
         )
-        self._setup_handlers()
 
     def tweeter(self, update, context):
         """Start the telegram bot service"""
@@ -68,7 +65,7 @@ class TelegramService:
             raise
 
     # News command
-    def news(self, news_feed, update, context):
+    def news(self, news_feed):
         try:
             logger.info("Starting Telegram bot service...")
             
@@ -84,9 +81,6 @@ class TelegramService:
             for news in news_feed:
                 tweet = self.content_service.generate_tweet_news(news)
                 self.send_preview(tweet)
-
-            # self.updater.start_polling()
-            # self.updater.idle()
 
         except Exception as e:
             logger.error(f"Failed to start Telegram service: {e}")

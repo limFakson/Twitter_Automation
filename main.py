@@ -37,7 +37,7 @@ def main():
         # Start your job store
         jobstore()
 
-        telegram_service.start()
+        telegram_service.start_bot()
 
         logger.info("Main service started.")
 

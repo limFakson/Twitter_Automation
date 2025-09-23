@@ -175,6 +175,8 @@ class TelegramService:
             return self.tweeter(update, context)
         elif query.data == "/help":
             return self.help_command(update, context)
+        elif query.data == "/news":
+            return self.news(update, context)
     
         message_id = query.message.message_id
         if message_id not in self.pending_tweets:

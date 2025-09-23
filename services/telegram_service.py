@@ -45,8 +45,8 @@ class TelegramService:
     
     def start(self, update: Update, context: CallbackContext):
         keyboard = [
-            [InlineKeyboardButton("Tweeter", callback_data="tweeter")],
-            [InlineKeyboardButton("Help", callback_data="help_command")],
+            [InlineKeyboardButton("Tweeter", callback_data="/tweet")],
+            [InlineKeyboardButton("Help", callback_data="/help")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         update.message.reply_text(
@@ -167,6 +167,11 @@ class TelegramService:
         query = update.callback_query
         query.answer()
 
+        if query.data == "/tweet":
+            return self.tweeter(update, context)
+        elif query.data == "/help":
+            return self.help_command(update, context)
+    
         message_id = query.message.message_id
         if message_id not in self.pending_tweets:
             query.edit_message_text(text="Error: Tweet data not found!")

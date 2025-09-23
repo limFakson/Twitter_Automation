@@ -3,34 +3,44 @@ import time
 import threading
 from config.logging_config import setup_logging
 from services.telegram_service import TelegramService
+from apscheduler.triggers.date import DateTrigger
+from apscheduler.triggers.cron import CronTrigger
+from apscheduler.schedulers.background import BackgroundScheduler
+from services.news_service import NewsService
 
 logger = logging.getLogger(__name__)
+scheduler = BackgroundScheduler()
+
+def news_service_job():
+    logger.info("Running news service job...")
+    news_service = NewsService()    
+    news_feed = news_service.games_news()
+    return news_feed
+
+def jobstore():
+    # Run every day at 8 AM and 7 PM
+    scheduler.add_job(
+        news_service_job,
+        trigger=CronTrigger(hour="8,19", minute=0)
+    )
+    scheduler.start()
+    logger.info("Scheduler started with jobs.")
 
 
 def main():
-    setup_logging()
-    start_time = time.time()
-    run_duration = 60  # Run the script for 60 seconds
-
     try:
+        # Start your job store
+        jobstore()
+
         telegram_service = TelegramService()
         # telegram_service.start()
-        # print("Telegram service started")
-        # while True:
-        #     current_time = time.time()
-        #     elapsed_time = current_time - start_time
 
-        #     if elapsed_time > run_duration:
-        #         logger.info(
-        #             f"Time's up! {run_duration} seconds have passed. Stopping the script."
-        #         )
-        #         break
+        logger.info("Main service started.")
 
-        #     # Add the logic you want to run in each loop iteration
-        #     logger.info("Script is still running...")
-
-        #     # Sleep for a short while to avoid 100% CPU usage
-        #     time.sleep(5)  # Sleep for 5 seconds (You can adjust this)
+        # Keep process alive
+        while True:
+            logger.info("Script is still running...")
+            time.sleep(5)
 
     except Exception as e:
         logger.error(f"Failed to start bot: {e}")
@@ -38,5 +48,10 @@ def main():
 
 
 if __name__ == "__main__":
-    thread = threading(main(), daemon=True)
+    # ✅ Correct threading usage
+    thread = threading.Thread(target=main, daemon=True)
     thread.start()
+
+    # Keep main thread alive
+    while True:
+        time.sleep(1)

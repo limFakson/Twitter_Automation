@@ -68,10 +68,9 @@ class TelegramService:
             raise
 
     # News command
-    def news(self, update, context):
+    def news(self, news_feed, update, context):
         try:
             logger.info("Starting Telegram bot service...")
-            news_feed = self.news_service.games_news()
             
             # If news_feed is none or not exist
             if not news_feed:

@@ -11,10 +11,13 @@ from services.news_service import NewsService
 logger = logging.getLogger(__name__)
 scheduler = BackgroundScheduler()
 
+telegram_service = TelegramService()
+
 def news_service_job():
     logger.info("Running news service job...")
     news_service = NewsService()    
     news_feed = news_service.games_news()
+    telegram_service.news(news_feed)
     return news_feed
 
 def jobstore():
@@ -32,8 +35,7 @@ def main():
         # Start your job store
         jobstore()
 
-        telegram_service = TelegramService()
-        # telegram_service.start()
+        telegram_service.start()
 
         logger.info("Main service started.")
 
@@ -41,10 +43,12 @@ def main():
         while True:
             logger.info("Script is still running...")
             time.sleep(5)
-
+            
     except Exception as e:
         logger.error(f"Failed to start bot: {e}")
         raise
+    finally:
+        telegram_service.stop()
 
 
 if __name__ == "__main__":

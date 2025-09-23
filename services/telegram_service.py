@@ -47,7 +47,7 @@ class TelegramService:
 
     def start(self, update, context):
         keyboard = [
-            [InlineKeyboardButton("News", callback_data="get_news")],
+            # [InlineKeyboardButton("News", callback_data="news")],
             [InlineKeyboardButton("Tweeter", callback_data="tweet")],
             [InlineKeyboardButton("Help", callback_data="help")],
         ]

@@ -37,14 +37,9 @@ def main():
         # Start your job store
         jobstore()
 
-        telegram_service.start_bot()
-
         logger.info("Main service started.")
-
-        # Keep process alive
-        while True:
-            logger.info("Script is still running...")
-            time.sleep(5)
+        # Keeps process alive
+        telegram_service.start_bot()
             
     except Exception as e:
         logger.error(f"Failed to start bot: {e}")

@@ -52,10 +52,5 @@ def main():
 
 
 if __name__ == "__main__":
-    # ✅ Correct threading usage
-    thread = threading.Thread(target=main, daemon=True)
-    thread.start()
-
     # Keep main thread alive
-    while True:
-        time.sleep(1)
+    main()

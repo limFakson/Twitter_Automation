@@ -36,6 +36,7 @@ class TelegramService:
         dp.add_handler(MessageHandler(Filters.text & ~Filters.command, self._handle_edited_tweet))
         dp.add_handler(CommandHandler("start", self.start))
         dp.add_handler(CommandHandler("tweet", self.tweeter))
+        dp.add_handler(CommandHandler("news", self.news))
         dp.add_handler(CommandHandler("help", self.help_command))
 
     def start_bot(self):
@@ -45,6 +46,7 @@ class TelegramService:
     
     def start(self, update: Update, context: CallbackContext):
         keyboard = [
+            [InlineKeyboardButton("News", callback_data="/news")],
             [InlineKeyboardButton("Tweeter", callback_data="/tweet")],
             [InlineKeyboardButton("Help", callback_data="/help")],
         ]
@@ -64,27 +66,29 @@ class TelegramService:
             logger.error(f"Failed to start Telegram service: {e}")
             raise
 
-    # News command
-    def news(self, news_feed):
+    # --- News Command Handler Version (expects update + context) ---
+    def news(self, update: Update, context: CallbackContext):
+        """Triggered when user types /news"""
+        news_feed = self.news_service.games_news()  # however you get it
+        self._send_news(news_feed)
+        
+    # --- Shared sender ---
+    def _send_news(self, news_feed):
         try:
-            logger.info("Starting Telegram bot service...")
-            
-            # If news_feed is none or not exist
             if not news_feed:
-                message = self.updater.bot.send_message(
+                self.updater.bot.send_message(
                     chat_id=self.chat_id,
                     text="No recent news available for now",
                     parse_mode=ParseMode.MARKDOWN,
                 )
                 return
-            
+
             for news in news_feed:
                 tweet = self.content_service.generate_tweet_news(news)
                 self.send_preview(tweet)
 
         except Exception as e:
-            logger.error(f"Failed to start Telegram service: {e}")
-            raise
+            logger.error(f"Error while sending news: {e}")
         
     # Help command
     def help_command(self, update: Update, context: CallbackContext):
@@ -92,7 +96,7 @@ class TelegramService:
         Available commands:
         /start - Start the bot
         /help - Show this help message
-        /news - Get the latest news
+        /news - Get the latest game news
         /tweet - Generate random tweets from gemini
         """
         update.message.reply_text(commands)

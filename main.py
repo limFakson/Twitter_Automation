@@ -19,7 +19,7 @@ def news_service_job():
     logger.info("Running news service job...")
     news_service = NewsService()    
     news_feed = news_service.games_news()
-    telegram_service.news(news_feed)
+    telegram_service._send_news(news_feed)
     return news_feed
 
 def jobstore():

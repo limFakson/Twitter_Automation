@@ -44,14 +44,14 @@ class TelegramService:
     
     
 
-    def start(self, update, context):
+    def start(self):
         keyboard = [
             # [InlineKeyboardButton("News", callback_data="news")],
             [InlineKeyboardButton("Tweeter", callback_data="tweet")],
             [InlineKeyboardButton("Help", callback_data="help")],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
-        update.message.reply_text(
+        self.update.message.reply_text(
             "Welcome! Choose an option:", reply_markup=reply_markup
         )
         self._setup_handlers()

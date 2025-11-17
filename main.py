@@ -38,12 +38,14 @@ def jobstore():
     # Run every day at 8 AM and 7 PM
     scheduler.add_job(
         news_service_job,
-        trigger=CronTrigger(hour="17", minute=0, timezone=pytz.timezone("UTC"))
+        trigger=CronTrigger(hour="17", minute=0, timezone=pytz.timezone("UTC")),
+        id="news service"
     )
     scheduler.add_job(
         news_service_job,
         trigger=CronTrigger(hour="9,14", minute=13, timezone=pytz.timezone("UTC")),
-        args=[True]
+        args=[True],
+        id="automated news service"
     )
     scheduler.start()
     logger.info("Scheduler started with jobs.")

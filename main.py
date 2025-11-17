@@ -16,7 +16,7 @@ scheduler = BackgroundScheduler()
 
 telegram_service = TelegramService()
 
-def news_service_job(automate:bool):
+def news_service_job(automate:bool=None):
     logger.info("Running news service job...")
     news_service = NewsService()    
     if not automate:

@@ -8,6 +8,7 @@ from apscheduler.triggers.cron import CronTrigger
 from apscheduler.schedulers.background import BackgroundScheduler
 from services.news_service import NewsService
 import pytz
+import random
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -15,18 +16,34 @@ scheduler = BackgroundScheduler()
 
 telegram_service = TelegramService()
 
-def news_service_job():
+def news_service_job(automate:bool):
     logger.info("Running news service job...")
     news_service = NewsService()    
-    news_feed = news_service.games_news()
-    telegram_service._send_news(news_feed)
-    return news_feed
+    if not automate:
+        news_feed = news_service.games_news()
+        telegram_service._send_news(news_feed)
+        return "Manual tweet"
+    
+    # Automated news post
+    limit = random.randint(0,5)
+    news_feed = news_service.games_news(limit)
+    for news in news_feed:
+        tweet = telegram_service.content_service.generate_tweet_news(news)
+        success = telegram_service.twitter.post_tweet(tweet)
+        if success:
+            logger.info(f'News post tweeted on X - {time.asctime()}')
+    return "Automated Tweet"
 
 def jobstore():
     # Run every day at 8 AM and 7 PM
     scheduler.add_job(
         news_service_job,
-        trigger=CronTrigger(hour="7,18", minute=0, timezone=pytz.timezone("UTC"))
+        trigger=CronTrigger(hour="17", minute=0, timezone=pytz.timezone("UTC"))
+    )
+    scheduler.add_job(
+        news_service_job,
+        trigger=CronTrigger(hour="9,14", minute=13, timezone=pytz.timezone("UTC")),
+        args=[True]
     )
     scheduler.start()
     logger.info("Scheduler started with jobs.")

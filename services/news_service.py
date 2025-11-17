@@ -1,5 +1,6 @@
 import requests
 import json
+import random
 import os
 import logging
 from datetime import datetime
@@ -14,7 +15,7 @@ class NewsService:
         self.content_dir = "logs/news_id"
         self.file_path = os.path.join(self.content_dir, "uploaded.txt")
 
-    def games_news(self) -> dict:
+    def games_news(self, limit:int=None) -> dict:
         params = {
             "operationName": "HomepageContentFeed",
             "variables": {"filter": "Games", "startIndex": 0, "newsOnly": False},
@@ -33,6 +34,10 @@ class NewsService:
         responce = requests.post(self.url, json=params, headers=headers)
         ign_news = responce.json()
         content_feeds = ign_news["data"]["homepage"]["contentFeed"]["feedItems"]
+        
+        if limit:
+            content_feeds = content_feeds[0:limit]
+            
         news_params = []
         for feeds in content_feeds:
             news_feed = feeds["content"]
@@ -52,7 +57,7 @@ class NewsService:
             else:
                 logger.error(f"No recent news for now")
                 break
-                return 
+            
             # break  # Get news info only once
         return news_params
 

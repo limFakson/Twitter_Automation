@@ -31,6 +31,7 @@ class TelegramService:
         self._setup_handlers()
 
     def _setup_handlers(self):
+        logger.info("Starting Telegram bot service...")
         dp = self.updater.dispatcher
         dp.add_handler(CallbackQueryHandler(self._handle_button_click))
         dp.add_handler(MessageHandler(Filters.text & ~Filters.command, self._handle_edited_tweet))
@@ -58,12 +59,11 @@ class TelegramService:
     def tweeter(self, update, context):
         """Start the telegram bot service"""
         try:
-            logger.info("Starting Telegram bot service...")
             tweet = self.content_service.generate_tweet()
             self.send_preview(tweet)
 
         except Exception as e:
-            logger.error(f"Failed to start Telegram service: {e}")
+            logger.error(f"Failed to start tweet service: {e}")
             raise
 
     # --- News Command Handler Version (expects update + context) ---

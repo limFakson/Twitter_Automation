@@ -15,7 +15,7 @@ class ContentService:
         """Generate a new tweet using Gemini AI"""
         try:
             content_type = random.choice(list(ContentType))
-            if content_type == "ContentType.GAME_NEWS_SOURCE":
+            if content_type.value == ContentType.GAME_NEWS_SOURCE or content_type.value == ContentType.GAME_NEWS:
                 self.generate_tweet()
             return self.gemini.generate_tweet(content_type)
         except Exception as e:

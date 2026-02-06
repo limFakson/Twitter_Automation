@@ -67,3 +67,26 @@ class ContentService:
             tweet_type=TweetType.POLL,
             poll_options=options
         )
+    
+    def generate_channel_post(self) -> Tweet:
+        """Generate content specifically for Telegram Channel"""
+        try:
+            # Re-use game news source or similar, but maybe we want a specific prompt for channels?
+            # For now, let's use the same geneate_tweet logic but we might technically want 
+            # a different 'ContentType' later. 
+            # Start with existing generic generation but intended for channel.
+            # In future: ContentType.TELEGRAM_POST
+            return self.generate_tweet()
+        except Exception as e:
+            logger.error(f"Failed to generate channel post: {e}")
+            raise
+
+    def suggest_hashtags(self, keyword: str) -> list:
+        """Generate relevant hashtags using Gemini (Fallback for Twitter API)"""
+        try:
+            prompt = f"Generate 10 trending and relevant Twitter hashtags for the gaming topic: '{keyword}'. Return ONLY the hashtags, separated by spaces."
+            response = self.gemini.model.generate_content(prompt)
+            return response.text.split()
+        except Exception as e:
+            logger.error(f"Failed to suggest hashtags via Gemini: {e}")
+            return []

@@ -23,6 +23,7 @@ class TweetType(Enum):
     THREAD = "thread"
     POLL = "poll"
     MEME = "meme"
+    CHANNEL_POST = "channel_post"
 
 @dataclass
 class PollOption:

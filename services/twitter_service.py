@@ -168,12 +168,30 @@ class TwitterService:
                     logger.error(f"Failed to download/upload image from URL: {e}")
                 
             
-            self.client.create_tweet(
-                text=tweet.content,
-                media_ids=media_ids if media_ids else None
-            )
+            # Wait for media to be processed by Twitter before posting
+            if media_ids:
+                logger.info("Waiting 5 seconds for media processing...")
+                time.sleep(5)
             
-            return True
+            # Retry logic for 503 Service Unavailable
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    self.client.create_tweet(
+                        text=tweet.content,
+                        media_ids=media_ids if media_ids else None
+                    )
+                    return True
+                except Exception as e:
+                    if "503" in str(e) and attempt < max_retries - 1:
+                        wait_time = (attempt + 1) * 5
+                        logger.warning(f"503 Service Unavailable. Retrying in {wait_time}s (Attempt {attempt + 1}/{max_retries})...")
+                        time.sleep(wait_time)
+                    else:
+                        logger.error(f"Error posting single tweet: {e}")
+                        return False
+            
+            return False
         except Exception as e:
             logger.error(f"Error posting single tweet: {e}")
             return False

@@ -7,6 +7,7 @@ from telegram.ext import (
     MessageHandler,
     Filters,
     CommandHandler,
+    ChatMemberHandler,
 )
 from config.environment import load_environment
 from utils.types import Tweet, TweetType
@@ -37,6 +38,7 @@ class TelegramService:
         dp = self.updater.dispatcher
         dp.add_handler(CallbackQueryHandler(self._handle_button_click))
         dp.add_handler(MessageHandler(Filters.text & ~Filters.command, self._handle_text_input))
+        dp.add_handler(ChatMemberHandler(self._handle_chat_member, ChatMemberHandler.CHAT_MEMBER))
         dp.add_handler(CommandHandler("start", self.start))
         dp.add_handler(CommandHandler("tweet", self.tweeter))
         dp.add_handler(CommandHandler("news", self.news))
@@ -47,7 +49,7 @@ class TelegramService:
 
     def start_bot(self):
         """Starts polling for Telegram updates"""
-        self.updater.start_polling()
+        self.updater.start_polling(allowed_updates=["message", "callback_query", "chat_member", "my_chat_member"])
         self.updater.idle()
     
     def start(self, update: Update, context: CallbackContext):
@@ -115,6 +117,23 @@ class TelegramService:
             text="🔍 **Hashtag Search**\n\nSend me a keyword to search for trending hashtags (e.g., 'Gaming', 'IndieDev')."
         )
         context.user_data["mode"] = "hashtag_search"
+
+    def _handle_chat_member(self, update: Update, context: CallbackContext):
+        """Handle new member joining a channel"""
+        # Ensure the update is from the configured channel
+        if str(update.effective_chat.id) != str(self.channel_service.channel_id):
+            return
+
+        old_status = update.chat_member.old_chat_member.status
+        new_status = update.chat_member.new_chat_member.status
+
+        was_member = old_status in ["member", "administrator", "creator", "restricted"]
+        is_member = new_status in ["member", "administrator", "creator", "restricted"]
+
+        if not was_member and is_member:
+            # User joined
+            member = update.chat_member.new_chat_member.user
+            self.channel_service.send_welcome_message(member)
         
     # --- Shared sender ---
     def _send_news(self, news_feed):

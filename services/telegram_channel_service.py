@@ -43,6 +43,31 @@ class TelegramChannelService:
             logger.error(f"Failed to post to channel: {e}")
             return False
 
+    def send_welcome_message(self, member):
+        """Send a welcome message to a new member in the channel"""
+        if not self.channel_id:
+            logger.error("TELEGRAM_CHANNEL_ID not set in environment.")
+            return False
+
+        welcome_text = (
+            f"Welcome to the channel, {member.full_name}! 🎉\n\n"
+            "**Here is what you can expect:**\n"
+            "🎮 Regular updates and game news\n"
+            "📰 Exclusive gaming content\n"
+            "💬 Community discussions\n\n"
+            "Feel free to explore and enjoy!"
+        )
+        try:
+             self.bot.send_message(
+                 chat_id=self.channel_id,
+                 text=welcome_text,
+                 parse_mode=telegram.ParseMode.MARKDOWN
+             )
+             return True
+        except Exception as e:
+             logger.error(f"Failed to send welcome message: {e}")
+             return False
+
     def get_analytics(self):
         """Get basic channel analytics (member count)"""
         if not self.channel_id:
